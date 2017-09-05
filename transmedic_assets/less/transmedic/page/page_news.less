@@ -1,0 +1,136 @@
+#page-news-featured-section {
+  padding-top: 25px;
+}
+
+.page-news-featured-carousel-item {
+  background: @white;
+  padding: 50px 30px 80px 30px;  
+  outline: 0px;
+  
+  .left-carousel-column {
+    .carousel-caption-container {
+      padding-top: 15px;    
+
+      p {
+        padding-bottom: 20px;
+      }
+
+      a{
+        .transition-in-single (color, 0.3s, cubic-bezier(0.645, 0.045, 0.355, 1), 0.1s);
+
+        // &:hover{
+        &.selected{
+          color: @cyan;
+          .transition-in-single (color, 0.2s, cubic-bezier(0.645, 0.045, 0.355, 1), 0.0s);
+        }
+      }
+
+    }
+  }  
+  
+  .right-carousel-column {
+    padding-left: 11%;
+
+   .manic-image-container {
+      height: 350px;
+      @media all and (max-width: 1280px) {
+        height: 305px;
+      }
+    }
+  }
+}
+
+#page-news-filter-section {
+  padding-top: 70px;
+}
+
+#page-news-filter-list {
+  padding: 0 35px;
+  li {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    &:last-child {
+      &:after {
+        display: none;
+      }
+    }
+    a {
+      h3 {
+        .merriweather-regular;
+        font-size: 28px;
+        line-height: 48px;
+        color: @off-black; 
+      }
+      &.active-cat {
+        h3 {
+          .merriweather-bold;        
+        }
+      }      
+    }    
+    &:after {
+      content: "/";      
+      position: absolute;
+      top: 0px;
+      right: -7px;
+
+      .merriweather-regular;
+      font-size: 28px;
+      line-height: 48px;
+      color: @off-black; 
+      
+    }
+  }
+}
+
+#page-default-news-item-container {
+
+  &.news-page-version {
+    padding: 0 30px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+
+    .item-column {
+      padding-left: 0px;
+      padding-right: 0px;
+      margin: 0 40px;
+      min-height: 150px;
+      position: relative;
+      &:after {
+        content: "";
+        border-bottom: 1px solid @border-grey;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+      }
+    }
+
+    .page-default-news-item {
+      .item-title {
+        h3 {          
+          a {
+            font-size: 21px;  
+            line-height: 30px;
+            &:hover {
+              color: @cyan;
+            }
+          }      
+        }
+      }
+    }
+
+  }
+
+}
+
+
+
+
+
+#page-news-load-more-cta-container {
+  text-align: center;
+  padding-bottom: 100px;
+}

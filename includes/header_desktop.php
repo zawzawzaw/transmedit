@@ -19,7 +19,7 @@
   <div id="header-desktop-content-container">
     <div id="header-desktop-logo-container">
       <a id="header-desktop-logo" href="index.php" title="Transmedic - Advancing Medical Technologies"></a>
-      <a id="header-desktop-logo-expanded" href="index.php" title="Transmedic - Advancing Medical Technologies"></a>
+      <!-- <a id="header-desktop-logo-expanded" href="index.php" title="Transmedic - Advancing Medical Technologies"></a> -->
     </div>
 
     <!--
@@ -34,12 +34,12 @@
     <div id="header-desktop-menu">
       <nav>
         <ul>
-          <li><a href="javascript:void(0);">About Us</a></li>
-          <li><a href="javascript:void(0);">Services</a></li>
-          <li><a href="javascript:void(0);">Products</a></li>
-          <li><a href="javascript:void(0);">News</a></li>
-          <li><a href="javascript:void(0);">Careers</a></li>
-          <li><a href="javascript:void(0);">Contact</a></li>
+          <li><a href="javascript:void(0);" data-page="page-about">About Us</a></li>
+          <!-- <li><a href="javascript:void(0);">Services</a></li> -->
+          <li><a href="products.php" data-page="page-products">Products</a></li>
+          <li><a href="news.php" data-page="page-news">News</a></li>
+          <li><a href="careers.php" data-page="page-careers">Careers</a></li>
+          <li><a href="javascript:void(0);" data-page="page-contact">Contact</a></li>
         </ul>
       </nav>
     </div> <!-- header-desktop-menu -->

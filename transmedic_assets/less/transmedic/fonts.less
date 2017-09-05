@@ -5,9 +5,21 @@
 //   |_|  |_|_____|_| \_\_| \_\___|  \_/\_/  |_____/_/   \_\_| |_| |_|_____|_| \_\
 //
 
+.merriweather-regular{
+  font-family: 'Merriweather', Palatino, Georgia, serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .merriweather-bold{
   font-family: 'Merriweather', Palatino, Georgia, serif;
   font-style: normal;
+  font-weight: 700;
+}
+
+.merriweather-bold-italic{
+  font-family: 'Merriweather', Palatino, Georgia, serif;
+  font-style: italic;
   font-weight: 700;
 }
 
@@ -147,7 +159,9 @@
 }
 
 .h6-style(@multiplier: 1){
-  
+  .source-sans-pro-regular;
+  font-size: 14px * @multiplier;
+  line-height: 20px * @multiplier;
 }
 
 
@@ -162,7 +176,6 @@ body{
   .body-font;
   color: @off-black;
   background: @light-pink-2;
-  // background: #ff0000;
 }
 
 

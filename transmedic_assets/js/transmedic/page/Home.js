@@ -110,7 +110,7 @@ transmedic.page.Home.prototype.init = function() {
 
   this.create_latest_section_hover();
 
-  this.create_nav_trigger();
+  // this.create_nav_trigger();
   this.create_odometer();
 
 

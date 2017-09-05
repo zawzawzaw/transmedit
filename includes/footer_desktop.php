@@ -22,6 +22,7 @@
 
           <div id="footer-legal">
             <ul>
+              <li><a href="javascript:void(0);">Staff Login</a></li>
               <li><a href="javascript:void(0);">Terms of Use</a></li>
               <li><a href="javascript:void(0);">Privacy Policy</a></li>
             </ul>

@@ -188,7 +188,38 @@ transmedic.page.Default.prototype.create_hover_sync_items = function() {
 };
 
 
+transmedic.page.Default.prototype.expandable_text = function() {
+  var minimized_elements = $('.minimize-text');
+    
+  minimized_elements.each(function(){
+      // var t = $(this).text();                          // this is just TEXT !!!!!
+      var t = $(this).html();
+      var length = $(this).data('length');
 
+      if(t.length < length) return;
+
+      // http://stackoverflow.com/questions/18087416/split-string-in-half-by-word
+      // var middle = length;
+      // var before = t.lastIndexOf(' ', middle);
+      // var after = t.indexOf(' ', middle + 1);
+
+      // if (middle - before < after - middle) {
+      //     middle = before;
+      // } else {
+      //     middle = after;
+      // }
+
+      // var s1 = t.substr(0, middle);
+      // var s2 = t.substr(middle + 1);
+
+      if (t.length > length)
+        $(this).html(t.substring(0,length)+'...');
+      else
+        $(this).html(t);
+            
+  });
+
+}
 
 
 

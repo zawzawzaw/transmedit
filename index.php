@@ -12,7 +12,7 @@
   <?php include 'includes/head.php'; ?>
 </head>
 
-<body class="<?php echo $current_page; ?> home-expand-header-version">
+<body class="<?php echo $current_page; ?>"> <!-- home-expand-header-version -->
   <!-- only the home page has the class home-expand-header-version by default -->
 
   <?php include "includes/preloader.php"; ?>
@@ -39,28 +39,28 @@
 
       -->
 
-      <article id="page-home-banner-section">
-        <div id="page-home-banner-image">
+      <article id="page-default-banner-section">
+        <div id="page-default-banner-image">
           <div class="manic-image-container">
             <img src="" data-image-desktop="images_cms/home/home-banner.jpg">
           </div>
         </div>
 
-        <div id="page-home-banner-copy-container">
+        <div id="page-default-banner-copy-container">
           <div class="container-fluid has-breakpoint">
             <div class="row">
               <div class="col-md-6">
 
-                <div id="page-home-banner-copy">
+                <div id="page-default-banner-copy">
                   <h1>Leading medical equipment specialists in Southeast Asia.</h1>
-                </div> <!-- page-home-banner-copy -->
+                </div> <!-- page-default-banner-copy -->
 
               </div>
             </div>
           </div>
-        </div> <!-- page-home-banner-copy-container -->
+        </div> <!-- page-default-banner-copy-container -->
 
-      </article> <!-- page-home-banner-section -->
+      </article> <!-- page-default-banner-section -->
 
 
 
@@ -345,19 +345,19 @@
 
               <div id="page-home-brand-links">
                 <ul>
-                  <li><a href="javascript:void(0);">Surgical</a></li>
-                  <li><a href="javascript:void(0);">Orthopaedics</a></li>
+                  <li><a href="products.php#surgical">Surgical</a></li>
+                  <li><a href="products.php#orthopaedics">Orthopaedics</a></li>
                 </ul>
                 <ul>
-                  <li><a href="javascript:void(0);">In-vitro Diagnostics</a></li>
-                  <li><a href="javascript:void(0);">Specialty Pharmaceuticals / Medical</a></li>
+                  <li><a href="products.php#in-vitro-diagnostics">In-vitro Diagnostics</a></li>
+                  <li><a href="products.php#specialty-pharmaceuticals-medical">Specialty Pharmaceuticals / Medical</a></li>
                 </ul>
                 <ul>
-                  <li><a href="javascript:void(0);">Turnkey Solutions</a></li>
-                  <li><a href="javascript:void(0);">Therapeutics</a></li>
+                  <li><a href="products.php#turnkey-solutions">Turnkey Solutions</a></li>
+                  <li><a href="products.php#therapeutics">Therapeutics</a></li>
                 </ul>
                 <ul>
-                  <li><a href="javascript:void(0);">Interventional Therapy</a></li>
+                  <li><a href="products.php#interventional-therapy">Interventional Therapy</a></li>
                 </ul>
 
               </div> <!-- page-home-brand-links -->
@@ -498,7 +498,7 @@
           <div class="row">
             <div class="col-md-12">
 
-              <div id="page-home-news-item-container">
+              <div id="page-default-news-item-container">
                 <div class="row">
                   <div class="col-md-4">
                     <div class="item-column first-version">
@@ -512,7 +512,7 @@
 
                       -->
 
-                      <div class="page-home-news-item hover-sync-item">
+                      <div class="page-default-news-item hover-sync-item">
                         <div class="item-title">
                           <div class="row">
                             <div class="col-xs-6">
@@ -530,7 +530,7 @@
                         <div class="item-cta-container">
                           <a href="javascript:void(0);" class="plain-arrow-cta hover-sync">Read More</a>
                         </div>
-                      </div> <!-- page-home-news-item -->
+                      </div> <!-- page-default-news-item -->
 
                     </div> <!-- item-column -->
                   </div>
@@ -546,7 +546,7 @@
 
                       -->
 
-                      <div class="page-home-news-item hover-sync-item">
+                      <div class="page-default-news-item hover-sync-item">
                         <div class="item-title">
                           <div class="row">
                             <div class="col-xs-6">
@@ -564,7 +564,7 @@
                         <div class="item-cta-container">
                           <a href="javascript:void(0);" class="plain-arrow-cta hover-sync">Read More</a>
                         </div>
-                      </div> <!-- page-home-news-item -->
+                      </div> <!-- page-default-news-item -->
 
                     </div> <!-- item-column -->
                   </div>
@@ -580,13 +580,13 @@
 
                       -->
 
-                      <div class="page-home-news-item hover-sync-item">
+                      <div class="page-default-news-item hover-sync-item">
                         <div class="item-title">
                           <div class="row">
-                            <div class="col-xs-6">
+                            <div class="col-md-7 col-xs-6">
                               <h4>Education & Events</h4>
                             </div>
-                            <div class="col-xs-6">
+                            <div class="col-md-5 col-xs-6">
                               <h4 class="item-date">05 JuN 2017</h4>
                             </div>
                           </div>
@@ -598,7 +598,7 @@
                         <div class="item-cta-container">
                           <a href="javascript:void(0);" class="plain-arrow-cta hover-sync">Read More</a>
                         </div>
-                      </div> <!-- page-home-news-item -->
+                      </div> <!-- page-default-news-item -->
 
                     </div> <!-- item-column -->
                   </div>

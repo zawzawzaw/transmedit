@@ -38,7 +38,11 @@ transmedic.component.HeaderDesktop = function(options, element) {
   });
   */
 
+  this.current_page = $('body').attr("class").split(' ')[0];
+
   this.create_search();
+
+  this.menu_highlight();
   
 
 
@@ -79,6 +83,12 @@ transmedic.component.HeaderDesktop.prototype.create_search = function(){
   $(document).click(this.on_document_click.bind(this));
 
 
+  
+};
+
+transmedic.component.HeaderDesktop.prototype.menu_highlight = function(){
+
+  $("#header-desktop-menu ul li a[data-page='"+this.current_page+"']").addClass("selected");
   
 };
 
