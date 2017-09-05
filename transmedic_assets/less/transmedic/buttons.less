@@ -169,3 +169,24 @@
   width: 100%;
   text-align: center;
 }
+
+
+.underline-link {  
+  color: @cyan!important;
+  position: relative;
+  &:after {
+    content: "";
+    border-bottom: 1px solid @border-grey;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-color: @cyan;
+  }
+  &:hover {
+    color: @light-grey!important;
+    &:after {
+      border-color: @light-grey;
+    }
+  }
+}

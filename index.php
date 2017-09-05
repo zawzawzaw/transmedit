@@ -1,4 +1,4 @@
-<?php 
+<?php
   global $current_page;
   $current_page = "page-home";
 
@@ -108,7 +108,7 @@
                       <div class="page-home-whatwedo-item hover-sync-item">
                         <a href="javascript:void(0);" class="item-image hover-sync">
                           <div class="manic-image-container">
-                            <img src="" 
+                            <img src=""
                               data-image-desktop="images_cms/home/home-whatwedo-01.jpg"
                               data-image-tablet="images_cms/home/home-whatwedo-01-tablet.jpg"
                               data-image-mobile="images_cms/home/home-whatwedo-01-mobile.jpg">
@@ -137,7 +137,7 @@
                       <div class="page-home-whatwedo-item hover-sync-item">
                         <a href="javascript:void(0);" class="item-image hover-sync">
                           <div class="manic-image-container">
-                            <img src="" 
+                            <img src=""
                               data-image-desktop="images_cms/home/home-whatwedo-02.jpg"
                               data-image-tablet="images_cms/home/home-whatwedo-02-tablet.jpg"
                               data-image-mobile="images_cms/home/home-whatwedo-02-mobile.jpg">
@@ -166,7 +166,7 @@
                       <div class="page-home-whatwedo-item hover-sync-item">
                         <a href="javascript:void(0);" class="item-image hover-sync">
                           <div class="manic-image-container">
-                            <img src="" 
+                            <img src=""
                               data-image-desktop="images_cms/home/home-whatwedo-03.jpg"
                               data-image-tablet="images_cms/home/home-whatwedo-03-tablet.jpg"
                               data-image-mobile="images_cms/home/home-whatwedo-03-mobile.jpg">
@@ -222,7 +222,7 @@
                 <div class="row">
                   <div class="col-md-7">
                     <div id="page-home-latest-column-01-width"></div>
-                    
+
                     <!--
                         ___  _
                        / _ \/ |
@@ -299,7 +299,7 @@
                         <a href="javascript:void(0);" class="plain-arrow-cta hover-sync">Read More</a>
                       </div>
                     </div>
-                    
+
                   </div>
                 </div>
               </div> <!-- page-home-latest-item-container -->
@@ -392,15 +392,15 @@
 
           <div class="manic-animated-svg fit-to-layout-version" id="home-map-animated-svg" data-image="images_cms/home/home-map-new-02c.svg" data-width="1380" data-height="800">
           </div>
-          <!-- 
-          
+          <!--
+
           <div class="manic-image-container">
             <img src="" data-image-desktop="images_cms/home/home-map.jpg">
           </div>
           -->
-          
+
         </div>
-        
+
         <div id="page-home-map-copy-container">
           <div class="container-fluid has-breakpoint">
             <div class="row">
@@ -536,7 +536,7 @@
                   </div>
                   <div class="col-md-4">
                     <div class="item-column">
-                      
+
                       <!--
                           ___ ____
                          / _ \___ \
@@ -553,7 +553,7 @@
                               <h4>Success Stories</h4>
                             </div>
                             <div class="col-xs-6">
-                              <h4 class="item-date">18 JuN 2017</h4>
+                              <h4 class="item-date">18 Jun 2017</h4>
                             </div>
                           </div>
                           <h3><a href="javascript:void(0);" class="hover-sync">100 cases celebration with Mako Robotics: Dr. Jeffrey Chew</a></h3>
@@ -587,7 +587,7 @@
                               <h4>Education & Events</h4>
                             </div>
                             <div class="col-md-5 col-xs-6">
-                              <h4 class="item-date">05 JuN 2017</h4>
+                              <h4 class="item-date">05 Jun 2017</h4>
                             </div>
                           </div>
                           <h3><a href="javascript:void(0);" class="hover-sync">Poctions 2016: Today’s actions for tomorrow’s patients</a></h3>
@@ -610,8 +610,8 @@
 
         </div>
       </article>
-      
-      
+
+
 
 
 
