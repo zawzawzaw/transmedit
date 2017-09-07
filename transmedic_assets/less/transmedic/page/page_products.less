@@ -100,6 +100,28 @@
   }  
 }
 
+//     __  _______  ____  ______    ______
+//    /  |/  / __ \/ __ )/  _/ /   / ____/
+//   / /|_/ / / / / __  |/ // /   / __/
+//  / /  / / /_/ / /_/ // // /___/ /___
+// /_/  /_/\____/_____/___/_____/_____/
+
+
+@media all and (max-width: 768px) {
+  #page-products-brands-section {
+    padding-top: @section-padding-mobile;
+    padding-bottom: @section-padding-mobile;
+  }
+
+  #page-products-brands-tabs-container {
+    padding-top: @section-padding-mobile;
+  }
+
+  #page-products-brands-tabs-icons {
+    top: 60px;
+  }
+}
+
 //     ______________  _   __   _    _____________       __
 //    /  _/ ____/ __ \/ | / /  | |  / /  _/ ____/ |     / /
 //    / // /   / / / /  |/ /   | | / // // __/  | | /| / /
@@ -256,6 +278,30 @@
   }
 }
 
+//     __  _______  ____  ______    ______   ______________  _   __   _    _____________       __
+//    /  |/  / __ \/ __ )/  _/ /   / ____/  /  _/ ____/ __ \/ | / /  | |  / /  _/ ____/ |     / /
+//   / /|_/ / / / / __  |/ // /   / __/     / // /   / / / /  |/ /   | | / // // __/  | | /| / /
+//  / /  / / /_/ / /_/ // // /___/ /___   _/ // /___/ /_/ / /|  /    | |/ // // /___  | |/ |/ /
+// /_/  /_/\____/_____/___/_____/_____/  /___/\____/\____/_/ |_/     |___/___/_____/  |__/|__/
+
+
+@media all and (max-width: 768px) {
+  .page-products-brands-icon-view-tab-item {
+    .item-title {
+      margin-bottom: 25px;
+    }
+    ul.item-icons-list {
+      li {
+        display: block;
+        margin-bottom: 25px;
+        .item-icon {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
 
 //     __    _______________   _    _____________       __
 //    / /   /  _/ ___/_  __/  | |  / /  _/ ____/ |     / /
@@ -269,7 +315,7 @@
 }
 
 #page-products-brands-list-view-title {
-  margin-bottom: 60px;
+  // margin-bottom: 60px;
 
   &:before {
     content: "";
@@ -324,3 +370,22 @@
   }
 }
 
+//     __    _______________   _    _____________       __   __  _______  ____  ______    ______
+//    / /   /  _/ ___/_  __/  | |  / /  _/ ____/ |     / /  /  |/  / __ \/ __ )/  _/ /   / ____/
+//   / /    / / \__ \ / /     | | / // // __/  | | /| / /  / /|_/ / / / / __  |/ // /   / __/
+//  / /____/ / ___/ // /      | |/ // // /___  | |/ |/ /  / /  / / /_/ / /_/ // // /___/ /___
+// /_____/___//____//_/       |___/___/_____/  |__/|__/  /_/  /_/\____/_____/___/_____/_____/
+
+@media all and (max-width: 768px) {
+  .page-products-brands-list-view-item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  #page-products-brands-list-view-title {
+    margin-bottom: 25px;
+    &:before {
+      padding-top: 25px;
+    }
+  }
+}

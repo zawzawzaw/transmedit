@@ -60,6 +60,10 @@ span.default-image-desc {
   height: 580px;
   display: table;
 
+  @media only screen and (max-width: 768px) {
+    height: auto;
+  }
+
   h1{
     display: table-cell;
     vertical-align: middle;
@@ -77,6 +81,17 @@ span.default-image-desc {
 
 
 } // #page-default-banner-copy
+
+@media all and (max-width: 991px) {
+  #page-default-banner-image {
+    .manic-image-container {
+      height: 200px;
+    }
+  }
+  #page-default-banner-copy-container {
+    display: none;
+  }
+}
 
 //     _   _________       _______    __________________  ___
 //    / | / / ____/ |     / / ___/   /  _/_  __/ ____/  |/  /
@@ -153,6 +168,25 @@ span.default-image-desc {
   }
   .item-cta-container{
 
+  }
+
+  @media all and (max-width: 991px) {
+    
+    &:after {
+      content: "";
+      border-bottom: 1px solid @border-grey;
+      height: 1px;
+      width: 100%;
+      display: block;
+      margin-bottom: 40px;
+    }
+    .item-copy{
+      margin-bottom: 40px;
+    }
+
+    .item-cta-container {
+      display: none;      
+    }
   }
 
 } // .page-home-news-item

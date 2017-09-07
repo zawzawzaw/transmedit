@@ -118,6 +118,8 @@ transmedic.page.Home.prototype.init = function() {
   if ($('#home-map-animated-svg').length != 0) {
     this.map_animated_svg = $('#home-map-animated-svg').data('manic.ui.AnimatedSVG');
   }
+
+  this.create_what_we_do_section_mobile();
   
 
   //$('body').toggleClass('home-expand-header-version');
@@ -231,6 +233,25 @@ transmedic.page.Home.prototype.create_odometer = function(){
 
 };
 
+
+
+transmedic.page.Home.prototype.create_what_we_do_section_mobile = function() {
+
+  if(manic.IS_MOBILE || manic.IS_TABLET_PORTRAIT) {
+    $("#page-home-whatwedo-item-slider").slick({
+      'speed': 350,
+      'dots': true,
+      'arrows': false,
+      'infinite': true,
+      'slidesToShow': 1,
+      'slidesToScroll': 1,
+      'pauseOnHover': false,
+      'autoplay': false,
+      'autoplaySpeed': 4000
+    });
+  }
+
+};
 
 
 transmedic.page.Home.prototype.private_method_02 = function() {};
@@ -386,17 +407,18 @@ transmedic.page.Home.prototype.update_home_latest_section_layout = function() {
     var target_left = -1 * space / 2;
     var target_right = -1 * space / 2;
     
-    
-    this.latest_item_01.css({
-      'margin-left': target_left + 'px'
-    });
-    
-    this.latest_item_02.css({
-      'margin-right': target_right + 'px'
-    });
-    this.latest_item_03.css({
-      'margin-right': target_right + 'px'
-    });
+    if(manic.IS_MOBILE == false) {
+      this.latest_item_01.css({
+        'margin-left': target_left + 'px'
+      });
+      
+      this.latest_item_02.css({
+        'margin-right': target_right + 'px'
+      });
+      this.latest_item_03.css({
+        'margin-right': target_right + 'px'
+      });
+    }
     
   }
 

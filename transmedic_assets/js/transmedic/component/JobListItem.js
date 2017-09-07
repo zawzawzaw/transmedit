@@ -72,12 +72,14 @@ transmedic.component.JobListItem.EVENT_02 = '';
 transmedic.component.JobListItem.prototype.job_detail_expand = function() {
   if(this.is_job_detail_expanded==false) {
     this.is_job_detail_expanded = true;
+    this.view_detail_cta.html('Hide details');
     this.job_detail_container.slideDown(500);
   }
 };
 transmedic.component.JobListItem.prototype.job_detail_collapse = function() {
   if(this.is_job_detail_expanded==true) {
     this.is_job_detail_expanded = false;
+    this.view_detail_cta.html('View details');
     this.job_detail_container.slideUp(500);
   }
 };

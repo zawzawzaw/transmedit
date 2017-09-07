@@ -196,8 +196,8 @@
                 <div id="page-products-brands-list-view-tab" class="products-brands-tabs ">
                   
                   <div id="page-products-brands-list-view-title">
-                    <p><b>List view</b></p>
-                    <p>To find out more about the full range of our products, please send in your enquiry to our specific sales teams.</p>
+                    <!-- <p><b>List view</b></p>
+                    <p>To find out more about the full range of our products, please send in your enquiry to our specific sales teams.</p> -->
                   </div>
 
                   <div id="page-products-brands-list-view-items">

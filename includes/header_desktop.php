@@ -13,7 +13,7 @@
 -->
 
 
-<header id="header-desktop">
+<header id="header-desktop" class="hidden-sm hidden-xs">
   <div class="white-bg"></div>
 
   <div id="header-desktop-content-container">
@@ -34,12 +34,12 @@
     <div id="header-desktop-menu">
       <nav>
         <ul>
-          <li><a href="javascript:void(0);" data-page="page-about">About Us</a></li>
+          <li><a href="about.php" data-page="page-about">About Us</a></li>
           <!-- <li><a href="javascript:void(0);">Services</a></li> -->
           <li><a href="products.php" data-page="page-products">Products</a></li>
           <li><a href="news.php" data-page="page-news">News</a></li>
           <li><a href="careers.php" data-page="page-careers">Careers</a></li>
-          <li><a href="javascript:void(0);" data-page="page-contact">Contact</a></li>
+          <li><a href="contact.php" data-page="page-contact">Contact</a></li>
         </ul>
       </nav>
     </div> <!-- header-desktop-menu -->
@@ -53,7 +53,7 @@
 
     -->
 
-    <div id="header-desktop-search-container">
+    <div id="header-desktop-search-container" class="expand-version">
       <div class="search-grey-bg"></div>
       <form id="header-desktop-search-form" action="" method="GET">
         <input type="text" name="search-param">

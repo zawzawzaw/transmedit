@@ -58,9 +58,15 @@ body.actual-mobile-version{
   top: 0;
   left: 0;
   width: 100%;
-  height: @header-desktop-height;
+  height: @header-desktop-height;  
 
   .transition-in(0.7s, cubic-bezier(0.645, 0.045, 0.355, 1), 0.0s);
+
+  @media only screen and (min-width: 1440px) {
+    max-width: 1480px;
+    left: 50%;
+    margin-left: -740px;
+  }
 }
 body.home-expand-header-version{
   #header-desktop-content-container{

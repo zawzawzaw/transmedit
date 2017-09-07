@@ -41,7 +41,7 @@
               
               <div id="page-article-video-container">
                 <div id="page-article-video">
-                  <div class="manic-video-container auto-replay" data-video="videos_cms/sample-video.mp4">
+                  <div class="manic-video-container auto-replay" data-video="videos_cms/sample-video-2.mp4">
                     <video class="video-js vjs-default-skin" poster="images_cms/article/article-video.jpg" preload="auto" data-setup='{"controls": false}'>
                       <source src="" type="video/mp4" />
                     </video>
@@ -109,15 +109,7 @@
                         data-image-tablet="images_cms/article/article-slider-img-06.jpg"
                         data-image-mobile="images_cms/article/article-slider-img-06.jpg" alt="">
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="manic-image-container">
-                      <img src="" 
-                        data-image-desktop="images_cms/article/article-slider-img-04.jpg"
-                        data-image-tablet="images_cms/article/article-slider-img-04.jpg"
-                        data-image-mobile="images_cms/article/article-slider-img-04.jpg" alt="">
-                    </div>
-                  </div>
+                  </div>                  
                 </div> <!-- page-article-image-carousel -->
 
                 <div id="page-article-image-carousel-nav" class="transmedic-slick-slider">
@@ -167,14 +159,6 @@
                         data-image-desktop="images_cms/article/article-slider-thumb-06.jpg"
                         data-image-tablet="images_cms/article/article-slider-thumb-06.jpg"
                         data-image-mobile="images_cms/article/article-slider-thumb-06.jpg" alt="">
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="manic-image-container">
-                      <img src="" 
-                        data-image-desktop="images_cms/article/article-slider-thumb-04.jpg"
-                        data-image-tablet="images_cms/article/article-slider-thumb-04.jpg"
-                        data-image-mobile="images_cms/article/article-slider-thumb-04.jpg" alt="">
                     </div>
                   </div>
                 </div>

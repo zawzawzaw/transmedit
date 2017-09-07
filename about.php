@@ -31,22 +31,25 @@
 
         <div id="page-default-banner-copy-container">
           <div class="container-fluid has-breakpoint">
-            <div class="row">
-              <div id="banner-copy-left-col">
-                <div class="col-md-6">
+            <div class="row">              
+              
+              <div class="col-md-6">
+                <div id="banner-copy-left-col">
                   <div id="page-default-banner-copy">
-                    <h2>In order for our organisation to be great, our culture and our people must also be great.</h2>                  
+                    <h2>In order for our <br class="hidden-md hidden-xs hidden-sm"> organisation to be great, <br class="hidden-md hidden-xs hidden-sm"> our culture and our people <br class="hidden-md hidden-xs hidden-sm"> must also be great.</h2>                  
                   </div> <!-- page-home-banner-copy -->
                 </div>
-              </div> <!-- banner-copy-left-col -->
-              <div id="banner-copy-right-col">
-                <div class="col-md-6">
+              </div> <!-- col-md-6 -->
+              
+              <div class="col-md-6">
+                <div id="banner-copy-right-col">
                   <div id="page-default-banner-copy">
                     <h3>About Transmedic</h3>
                     <p>Transmedic was founded in 1980 with the aim of becoming the top specialist in the advanced medical technologies arena in Southeast Asia. Headquartered in Singapore, we have since grown our presence in 7 countries and have a staff of 400 people.</p>
                   </div>
                 </div>
-              </div> <!-- banner-copy-right-col -->
+              </div> <!-- col-md-6 -->
+
             </div>
           </div>
         </div> <!-- page-home-banner-copy-container -->
@@ -64,13 +67,16 @@
             </div>
           </div>
           <div id="page-about-what-we-do-content">
+            <div class="scroll-target" data-value="medical"></div>          
             <div class="page-about-what-we-do-content-item">
               <div class="row">
                 
                 <div class="col-md-6">
-                  <div class="img-col">
+                  <div class="img-col left-col">
                     <div class="manic-image-container">
-                      <img data-image-desktop="images_cms/about/what-we-do-01.jpg" src="" alt="">
+                      <img data-image-desktop="images_cms/about/what-we-do-01.jpg" 
+                           data-image-tablet="images_cms/about/what-we-do-01.jpg" 
+                           data-image-mobile="images_cms/about/what-we-do-01.jpg" src="" alt="">
                     </div>
                   </div> <!-- img-col -->
                 </div>
@@ -82,22 +88,23 @@
 
                     <p>Transmedic understands their concerns and has endeavoured over the last 3.5 decades to become the top specialist in the advanced medical technologies arena in Asia. We believe that these technologies can genuinely impact the quality of healthcare and significantly improve patient recovery times.</p>
 
-                    <p>Find out more about our <a href="products.php" class="underline-link">Latest Products</a>.</p>
+                    <p>Find out more about our <a href="news.php#latest" class="underline-link">Latest Products</a>.</p>
                   </div> <!-- txt-col -->
                 </div> 
 
               </div> <!-- row -->
             </div> <!-- page-about-what-we-do-content-item -->
             
+            <div class="scroll-target" data-value="education"></div>          
             <div class="page-about-what-we-do-content-item">
               <div class="row">
                 
                 <div class="col-md-6">
-                  <div class="txt-col">
+                  <div class="txt-col left-col">
                     <h3>Education & Training</h3>
                     <p>We are deeply committed to education, and invest heavily in training for doctors, technology promotion and patient education. We also regularly sponsor and help to organise medical conferences, exhibitions, symposiums and workshops for healthcare professionals to exchange findings and build networks.</p>
 
-                    <p>Find out more about what we do for <a href="#" class="underline-link">Education & Events</a>.</p>
+                    <p>Find out more about what we do for <a href="news.php#education" class="underline-link">Education & Events</a>.</p>
                   </div> <!-- txt-col -->
                 </div>
                 
@@ -105,7 +112,9 @@
                 <div class="col-md-6">
                   <div class="img-col right-col">
                     <div class="manic-image-container">
-                      <img data-image-desktop="images_cms/about/what-we-do-02.jpg" src="" alt="">
+                      <img data-image-desktop="images_cms/about/what-we-do-02.jpg"
+                      data-image-tablet="images_cms/about/what-we-do-02.jpg"
+                      data-image-mobile="images_cms/about/what-we-do-02.jpg" src="" alt="">
                     </div>
                   </div> <!-- img-col -->
                 </div>
@@ -113,13 +122,16 @@
               </div> <!-- row -->
             </div> <!-- page-about-what-we-do-content-item -->
 
+            <div class="scroll-target" data-value="support"></div>          
             <div class="page-about-what-we-do-content-item">
               <div class="row">   
 
                 <div class="col-md-6">
-                  <div class="img-col">
+                  <div class="img-col left-col">
                     <div class="manic-image-container">
-                      <img data-image-desktop="images_cms/about/what-we-do-03.jpg" src="" alt="">
+                      <img data-image-desktop="images_cms/about/what-we-do-03.jpg"
+                      data-image-tablet="images_cms/about/what-we-do-03.jpg"
+                      data-image-mobile="images_cms/about/what-we-do-03.jpg" src="" alt="">
                     </div>
                   </div>  <!-- img-col -->
                 </div>

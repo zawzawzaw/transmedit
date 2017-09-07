@@ -194,9 +194,13 @@ transmedic.page.Default.prototype.expandable_text = function() {
   minimized_elements.each(function(){
       // var t = $(this).text();                          // this is just TEXT !!!!!
       var t = $(this).html();
-      var length = $(this).data('length');
+      var maxLength = $(this).data('length');
 
-      if(t.length < length) return;
+      if(manic.IS_ACTUAL_MOBILE == true && manic.IS_TABLET_LANDSCAPE) {
+        maxLength = $(this).data('tablet-length');
+      }
+
+      if(t.length < maxLength) return;
 
       // http://stackoverflow.com/questions/18087416/split-string-in-half-by-word
       // var middle = length;
@@ -212,8 +216,14 @@ transmedic.page.Default.prototype.expandable_text = function() {
       // var s1 = t.substr(0, middle);
       // var s2 = t.substr(middle + 1);
 
-      if (t.length > length)
-        $(this).html(t.substring(0,length)+'...');
+      //trim the string to the maximum length
+      var trimmedString = t.substr(0, maxLength);
+
+      //re-trim if we are in the middle of a word
+      trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
+
+      if (t.length > maxLength)
+        $(this).html(trimmedString+'...');
       else
         $(this).html(t);
             

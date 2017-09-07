@@ -12,12 +12,27 @@
 -->
 
 
-<header id="header-mobile">
+<header id="header-mobile" class="visible-sm visible-xs">
+  <div class="white-bg"></div>
+
+  <div id="header-mobile-content-container">
+    <div id="header-mobile-logo-container">
+      <a id="header-mobile-logo" href="index.php" title="Transmedic - Advancing Medical Technologies"></a>
+    </div>
+
+    <div id="header-mobile-menu-opener-container">
+      <a id="header-mobile-menu-opener" href="javascript:void(0);">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+  </div>
 
 </header> <!-- header-mobile -->
 
 <div id="header-mobile-expand">
 
-  <div class="header-mobile-spacer"></div>
+  <div class="header-mobile-spacer hidden-lg hidden-md"></div>
 
 </div> <!-- header-mobile-expand -->

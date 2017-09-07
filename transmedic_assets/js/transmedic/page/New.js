@@ -216,7 +216,22 @@ transmedic.page.New = function(options, element) {
   this.total_news_page = this.news_count/this.news_per_page;
   this.total_news_page = Math.ceil(this.total_news_page);
 
-  this.get_all_news();
+  if(window.location.hash && window.location.hash !== 'all') {
+    this.current_category = window.location.hash;
+    this.current_category = this.current_category.slice(1);
+    this.get_filter_news();
+
+    $(".active-cat").removeClass("active-cat");
+    $("a[href="+window.location.hash+"]").addClass("active-cat");
+
+    $('html, body').animate({
+      scrollTop: $("#page-news-filter-section").offset().top - 50
+    }, 800);
+
+  } else {
+    this.get_all_news();
+  }
+  
   this.create_load_more_btn();
 
   console.log('transmedic.page.New: init');
@@ -317,7 +332,11 @@ transmedic.page.New.prototype.append_to_news_container = function(i) {
 
   $("#page-default-news-item-container").html(this.append_html);
 
-  this.expandable_text();
+  this.expandable_text();  
+  
+  $(window).on('resize', function(){
+    this.expandable_text();  
+  }.bind(this));
 
 };
 
@@ -382,7 +401,6 @@ transmedic.page.New.prototype.get_filter_news = function() {
     this.append_to_news_container(i);
   }
 
-  $("#page-default-news-item-container").html(this.append_html);
 };
 transmedic.page.New.prototype.private_method_05 = function() {};
 transmedic.page.New.prototype.private_method_06 = function() {};
@@ -417,6 +435,9 @@ transmedic.page.New.prototype.public_method_06 = function() {};
 transmedic.page.New.prototype.on_category_click = function(event) {
   this.current_category = $(event.currentTarget).attr("href");
   this.current_category = this.current_category.slice(1);
+
+  $(".active-cat").removeClass("active-cat");
+  $(event.currentTarget).addClass("active-cat");
 
   if(this.current_category!=='all') {
     this.load_more_news.hide();

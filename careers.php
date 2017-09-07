@@ -61,7 +61,7 @@
               <span class="quote">“Over time, I have honed my problem-solving skills and am now able to think quickly on my feet.”</span>
               <span class="author">Fabian, Senior Service Engineer</span>
               <div class="cta-container">
-                <a href="#" class="square-cta">read his story</a>
+                <a href="article.php" class="square-cta">read his story</a>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@
               <span class="quote">“Transmedic is continuously looking for ways to expand the knowledge and skills of its employees.”</span>
               <span class="author">jeanne, product specialist</span>
               <div class="cta-container">
-                <a href="#" class="square-cta">read his story</a>
+                <a href="article.php" class="square-cta">read his story</a>
               </div>
             </div><!--
             --><div class="col-md-6 align-col">
@@ -440,7 +440,7 @@
                           <div class="row">
                             <div class="col-md-6">
                               <div class="job-list-item-job-title-container">
-                                <h5>Operation & Logistic Admin Assitant</h5>
+                                <h5>Operation & Logistic Admin Assistant</h5>
                               </div>
                             </div>
                             <div class="col-md-6">

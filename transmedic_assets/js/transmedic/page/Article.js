@@ -75,7 +75,7 @@ transmedic.page.Article.prototype.create_article_carousel = function() {
   });
 
   $('#page-article-image-carousel-nav').slick({
-    slidesToShow: 6,
+    slidesToShow: 5,
     slidesToScroll: 1,
     asNavFor: '#page-article-image-carousel',
     dots: false,

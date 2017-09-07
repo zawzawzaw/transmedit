@@ -12,11 +12,16 @@
 
 #page-contact-offices-title {
   padding-bottom: 40px;
+  h2 {
+    // padding-left: 20px;
+    margin-left: -55px;
+  }
 }
 
 .page-contact-offices-content-item {
-  padding-right: 180px;
-  height: 255px;
+  // padding-right: 180px;
+  // height: 285px;
+  height: 300px;
   position: relative;
   overflow: hidden;
   margin-bottom: 45px;
@@ -28,7 +33,7 @@
     display: block;
     position: absolute;
     bottom: 0px;
-    left: -180px;
+    // left: -180px;
   }
 
   &.last-item {
@@ -39,10 +44,10 @@
     }
   }
 
-  p, a {
-    font-size: 14px;
-    line-height: 20px;
-  }
+  // p, a {
+  //   font-size: 14px;
+  //   line-height: 20px;
+  // }
 
   .page-contact-offices-content-item-title {
     padding-bottom: 15px;
@@ -66,9 +71,9 @@
 
 @media all and (max-width: 1280px) {
   .page-contact-offices-content-item {
-    padding-right: 150px;
+    // padding-right: 150px;
     &:after {
-      left: -180px;
+      // left: -180px;
     }
   }
 }
@@ -77,10 +82,15 @@
   padding-top: 70px;
   padding-bottom: 120px;
 
-  h2 {
-    font-size: 21px;
-    line-height: 30px;
-    padding-right: 130px;
+  // h2 {
+  //   font-size: 21px;
+  //   line-height: 30px;
+  //   margin-left: -40px;
+  //   // padding-left: 25px;
+  //   // padding-right: 130px;
+  // }
+  h5 {
+    margin-left: -40px;
   }
 
   ul {
@@ -90,13 +100,34 @@
         display: block;
       }
       span, a {      
-        font-size: 14px;
-        line-height: 14px;
+        // font-size: 14px;
+        // line-height: 14px;
       }
     }
   }
 
   p {
     padding-bottom: 25px;
+  }
+}
+
+//     __  _______  ____  ______    ______
+//    /  |/  / __ \/ __ )/  _/ /   / ____/
+//   / /|_/ / / / / __  |/ // /   / __/
+//  / /  / / /_/ / /_/ // // /___/ /___
+// /_/  /_/\____/_____/___/_____/_____/
+
+@media only screen and (max-width: 768px) {
+  #page-contact-offices-title {
+    h2 {
+      padding-left: 0px;
+    }
+  }
+  #page-contact-extra-section {
+    padding-bottom: 70px;
+    h2 {
+      padding-left: 0px;
+      padding-bottom: 20px;
+    }
   }
 }

@@ -296,6 +296,23 @@ video::-webkit-media-controls-start-playback-button {
         }
       }
     } 
+    @media all and (max-width: 991px) {
+      bottom: 0px;
+      padding: 0 10px;
+      text-align: right;
+      li {
+        width: 8px;
+        height: 8px;
+        button {
+          width: 8px;
+          height: 8px;
+          &:hover {
+            width: 8px;
+            height: 8px;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -307,4 +324,42 @@ video::-webkit-media-controls-start-playback-button {
   min-height: 400px;
   position: absolute;
   left: -50px;
+}
+
+.inline-block-center {
+  text-align: center;
+  div {
+    display: inline-block;
+    text-align: left;
+  }
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+
+  @media all and (max-width: 480px) {
+    display: block;
+  }
+} 
+
+
+@section-padding: 70px;
+@section-padding-mobile: 30px;
+
+@section-content-padding-mobile: 20px;
+
+//     __  _______  ____  ______    ______
+//    /  |/  / __ \/ __ )/  _/ /   / ____/
+//   / /|_/ / / / / __  |/ // /   / __/
+//  / /  / / /_/ / /_/ // // /___/ /___
+// /_/  /_/\____/_____/___/_____/_____/
+
+@media all and (max-width: 768px) {  
+  .manic-image-container {
+    &.full-width-version-mobile {
+      margin-left: -20px;
+      margin-right: -20px;
+    }    
+  }
 }
