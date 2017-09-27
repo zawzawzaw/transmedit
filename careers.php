@@ -69,7 +69,7 @@
                 <span class="author">Fabian</span>
                 <span class="author-position">Senior Service Engineer</span>
                 <div class="cta-container">
-                  <a href="article.php" class="read-more-cta">read his story</a>
+                  <a href="career-detail-fabian.php" class="read-more-cta">read his story</a>
                 </div>
               </div>
             </div>
@@ -80,7 +80,7 @@
               <span class="author">Jeanne</span>
               <span class="author-position">Product Specialist</span>
               <div class="cta-container">
-                <a href="article.php" class="read-more-cta">read his story</a>
+                <a href="career-detail-jeanne.php" class="read-more-cta">read her story</a>
               </div>
             </div><!--
             --><div class="col-md-6 align-col">
@@ -95,7 +95,7 @@
                 <span class="author">Jeanne</span>
                 <span class="author-position">Product Specialist</span>
                 <div class="cta-container">
-                  <a href="article.php" class="read-more-cta">read his story</a>
+                  <a href="career-detail-jeanne.php" class="read-more-cta">read her story</a>
                 </div>
               </div>
             </div>

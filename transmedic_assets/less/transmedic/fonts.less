@@ -150,8 +150,6 @@
 
 
 
-
-
 //    ____ _______   ___     _____
 //   / ___|_   _\ \ / / |   | ____|
 //   \___ \ | |  \ V /| |   |  _|
@@ -289,6 +287,26 @@
   font-size: 14px * @multiplier;
   line-height: 20px * @multiplier;
 }
+
+
+
+
+
+
+
+
+// mac font fix
+// makes fonts look thinner
+
+body.is-mac {
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+  
+
+
+
+
 
 
 //    _____  _    ____ ____
@@ -754,6 +772,11 @@ p{
         }
       }
     }
+  }
+
+
+  .cta-container{
+    padding-top: 19px;
   }
 
   

@@ -43,7 +43,7 @@
         <div id="page-default-banner-image">
           <div class="manic-image-container">
             <img src="" data-image-desktop="images_cms/home/home-banner.jpg"
-                        data-image-tablet="images_cms/home/home-banner.jpg"
+                        data-image-tablet="images_cms/home/home-banner-tablet.jpg"
                         data-image-mobile="images_cms/home/home-banner-mobile.jpg">
           </div>
         </div>

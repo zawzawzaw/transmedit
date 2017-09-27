@@ -240,3 +240,39 @@
     }  
   }
 }
+
+
+//    ____  _        _    ___ _   _
+//   |  _ \| |      / \  |_ _| \ | |
+//   | |_) | |     / _ \  | ||  \| |
+//   |  __/| |___ / ___ \ | || |\  |
+//   |_|   |_____/_/   \_\___|_| \_|
+//
+
+.plain-cta{
+  color: @dark-blue !important;
+  position: relative;
+
+  .transition-in-single (color, 0.3s, cubic-bezier(0.645, 0.045, 0.355, 1), 0.1s);
+
+  /*
+  &:after {
+    content: "";
+    border-bottom: 1px solid @dark-blue;
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 1px;
+  }
+  */
+ 
+  &:hover {
+    color: @light-grey-2 !important;
+    .transition-in-single (color, 0.2s, cubic-bezier(0.645, 0.045, 0.355, 1), 0.0s);
+
+    // &:after {
+    //   border-color: @light-grey-2;
+    // }
+  }
+
+}

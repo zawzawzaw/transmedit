@@ -55,7 +55,7 @@
 
     <div id="header-desktop-search-container" class="expand-version">
       <div class="search-grey-bg"></div>
-      <form id="header-desktop-search-form" action="" method="GET">
+      <form id="header-desktop-search-form" action="search.php" method="GET">
         <input type="text" name="search-param">
         <input type="submit" value="">
       </form>
