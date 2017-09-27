@@ -1,6 +1,12 @@
 #page-default-banner-section {
   &.contact-version {
-    height: 431px;
+    height: 500px;
+  }
+
+  @media all and (max-width: 991px) {
+    &.contact-version {
+      height: 300px;
+    }
   }
 }
 
@@ -8,19 +14,31 @@
   padding-top: 70px;
   padding-bottom: 70px;
   background: @white;
+
+  @media only screen and (max-width: 991px) {
+    padding-top: @section-padding-mobile;
+    padding-bottom: @section-padding-mobile;
+  }
 }
 
 #page-contact-offices-title {
   padding-bottom: 40px;
   h2 {
+    width: 254px;
     // padding-left: 20px;
-    margin-left: -55px;
+    // margin-left: -55px;
+  }
+  @media only screen and (max-width: 991px) {
+    h2 {
+      margin-left: 0px;
+    }
   }
 }
 
 .page-contact-offices-content-item {
   // padding-right: 180px;
   // height: 285px;
+  width: 254px;
   height: 300px;
   position: relative;
   overflow: hidden;
@@ -60,27 +78,25 @@
   }
 
   .page-contact-offices-content-item-address {
-    padding-bottom: 15px;
+    // padding-bottom: 15px;
   }
 
   .page-contact-offices-content-item-more-contact {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
   }
 
-}
-
-@media all and (max-width: 1280px) {
-  .page-contact-offices-content-item {
-    // padding-right: 150px;
-    &:after {
-      // left: -180px;
-    }
+  @media all and (max-width: 991px) {
+    height: auto;
+    margin-bottom: @section-padding-mobile;
+    padding-bottom: @section-padding-mobile;
   }
+
 }
 
 #page-contact-extra-section {
   padding-top: 70px;
-  padding-bottom: 120px;
+  padding-bottom: 100px;
+  background: @light-pink-2;
 
   // h2 {
   //   font-size: 21px;
@@ -90,7 +106,7 @@
   //   // padding-right: 130px;
   // }
   h5 {
-    margin-left: -40px;
+    // width: 282px;
   }
 
   ul {
@@ -109,22 +125,16 @@
   p {
     padding-bottom: 25px;
   }
-}
 
-//     __  _______  ____  ______    ______
-//    /  |/  / __ \/ __ )/  _/ /   / ____/
-//   / /|_/ / / / / __  |/ // /   / __/
-//  / /  / / /_/ / /_/ // // /___/ /___
-// /_/  /_/\____/_____/___/_____/_____/
+  @media only screen and (max-width: 991px) {
+    padding-top: @section-padding-mobile;
+    padding-bottom: @section-padding-mobile;
 
-@media only screen and (max-width: 768px) {
-  #page-contact-offices-title {
-    h2 {
-      padding-left: 0px;
+    h5 {
+      margin-left: 0px;
+      margin-bottom: @section-content-padding-mobile;
     }
-  }
-  #page-contact-extra-section {
-    padding-bottom: 70px;
+
     h2 {
       padding-left: 0px;
       padding-bottom: 20px;

@@ -29,9 +29,12 @@
 
       <article id="page-default-banner-section" class="contact-version">
 
-        <div id="page-default-banner-image" class="short-version-02">
+        <div id="page-default-banner-image" class="short-version">
           <div class="manic-image-container" data-vertical-align="top">
-            <img src="" data-image-desktop="images_cms/contact/contact-banner.jpg">
+            <img src="" 
+              data-image-desktop="images_cms/contact/contact-banner.jpg"
+              data-image-tablet="images_cms/contact/contact-banner.jpg"
+              data-image-mobile="images_cms/contact/contact-banner.jpg">
           </div>
         </div>
 
@@ -43,7 +46,7 @@
 
           <div id="page-contact-offices-title">
             <div class="row">
-              <div class="col-md-4 col-sm-4">
+              <div class="col-md-4">
                 <div class="flex-center">
                   <h2>Our Offices</h2>
                 </div>
@@ -55,7 +58,7 @@
                         
             <div class="row">
 
-              <div class="col-md-4 col-sm-4">
+              <div class="col-md-4">
                 <div class="flex-center">
                   <div class="page-contact-offices-content-item">
                     <div class="page-contact-offices-content-item-title">
@@ -80,7 +83,7 @@
                 </div> <!-- flex-center -->
               </div>
 
-              <div class="col-md-4 col-sm-4">
+              <div class="col-md-4">
                 <div class="flex-center">
                   <div class="page-contact-offices-content-item">
                     <div class="page-contact-offices-content-item-title">
@@ -105,7 +108,7 @@
                 </div> <!-- flex-center -->
               </div>
 
-              <div class="col-md-4 col-sm-4">
+              <div class="col-md-4">
                 <div class="flex-center">
                   <div class="page-contact-offices-content-item">
                     <div class="page-contact-offices-content-item-title">
@@ -135,7 +138,7 @@
 
             <div class="row">
 
-              <div class="col-md-4 col-sm-4">
+              <div class="col-md-4">
                 <div class="flex-center">
                   <div class="page-contact-offices-content-item">
                     <div class="page-contact-offices-content-item-title">
@@ -161,7 +164,7 @@
                 </div> <!-- flex-center -->
               </div>
 
-              <div class="col-md-4 col-sm-4">
+              <div class="col-md-4">
                 <div class="flex-center">
                   <div class="page-contact-offices-content-item">
                     <div class="page-contact-offices-content-item-title">
@@ -187,7 +190,7 @@
                 </div> <!-- flex-center -->
               </div>
 
-              <div class="col-md-4 col-sm-4">
+              <div class="col-md-4">
                 <div class="flex-center">
                   <div class="page-contact-offices-content-item">
                     <div class="page-contact-offices-content-item-title">
@@ -216,7 +219,7 @@
 
             <div class="row">
 
-              <div class="col-md-4 col-sm-4">
+              <div class="col-md-4">
                 <div class="flex-center">
                   <div class="page-contact-offices-content-item last-item">
                     <div class="page-contact-offices-content-item-title">
@@ -251,17 +254,17 @@
       <article id="page-contact-extra-section">
         <div class="container-fluid has-breakpoint">
           <div class="row">
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-3">
               <div class="flex-center">
                 <div>
-                  <h5>For product enquiries, <br class="hidden-xs hidden-sm"> please contact our <br class="hidden-xs hidden-sm"> specific sales teams.</h5>
+                  <h5>For product enquiries, <br class="hidden-xs hidden-sm"> please contact our specific sales teams.</h5>
                 </div>
               </div>
             </div>  
-            <div class="col-md-1 col-sm-1"></div>
-            <div class="col-md-7 col-sm-7">
+            <div class="col-md-1"></div>
+            <div class="col-md-8">
               <div class="row">
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6">
                   <ul>
                     <li>
                       <span>Surgical</span>
@@ -281,7 +284,7 @@
                     </li>
                   </ul>
                 </div>
-                <div class="col-md-6 col-sm-6">
+                <div class="col-md-6">
                   <ul>
                     <li>
                       <span>Turnkey Solutions</span>

@@ -26,6 +26,7 @@
 
 
       <div class="header-desktop-spacer"></div>
+      <div class="header-mobile-spacer hidden-lg"></div>
       
       <article id="page-article-section">
         <div class="container-fluid has-breakpoint">
@@ -34,7 +35,7 @@
 
               <div id="page-article-title-container">
                 <div class="default-copy">
-                  <h4>Latest products / 24 Jul 2017</h4>
+                  <h4>Latest products</h4>
                   <h2>K2M Expands Presence in Asia With Six Product Launches in Singapore and Hong Kong and Announces Participation at the IMAST 2015 Conference</h2>                
                 </div>
               </div>
@@ -52,7 +53,7 @@
               </div>
 
               <div id="page-article-text-container">
-                <h5>Partial Nephrectomy with Robotic Surgery</h5>
+                <h3>Partial Nephrectomy with Robotic Surgery</h3>
                 
                 <p>Some doctors that Mr Swift spoke to recommended removing the whole kidney as his kidney cancer was more that 4cm in size but Dr Chin was confident that he could do the a partial nephrectomy using the da Vinci robot so that most of kidney is spared. “It would not be possible to do partial nephrectomy for a tumour this size using standard laparoscopy because of the inherent limitations of the rigid instruments. Also, the kidney can only tolerate 30 mins of   blood supply intteruption and time is of essence in this surgery. So the usual options will either be open surgery with an incision at least 20cm long given his large frame, or laparoscopic total nephrectomy if the robot was not available,”said Dr Chin.</p>
 
@@ -175,23 +176,23 @@
               </div>
 
               <div id="page-article-tags-container">
-                <h6>Tags:</h6>                
+                <p><b>Tags:</b></p>                
                 <ul>
-                  <li><h6><a href="javascript:void(0);">da Vinci</a></h6></li>
-                  <li><h6><a href="javascript:void(0);">Dr Chin Chong Min</a><h6></li>
-                  <li><h6><a href="javascript:void(0);">intuitive surgical</a><h6></li>
-                  <li><h6><a href="javascript:void(0);">kidney</a><h6></li>
-                  <li><h6><a href="javascript:void(0);">mount elizabeth</a><h6></li>
-                  <li><h6><a href="javascript:void(0);">partial nephrectomy</a><h6></li>
-                  <li><h6><a href="javascript:void(0);">robotic surgery</a><h6></li>
+                  <li><a href="javascript:void(0);">da Vinci</a></li>
+                  <li><a href="javascript:void(0);">Dr Chin Chong Min</a></li>
+                  <li><a href="javascript:void(0);">intuitive surgical</a></li>
+                  <li><a href="javascript:void(0);">kidney</a></li>
+                  <li><a href="javascript:void(0);">mount elizabeth</a></li>
+                  <li><a href="javascript:void(0);">partial nephrectomy</a></li>
+                  <li><a href="javascript:void(0);">robotic surgery</a></li>
                 </ul>
               </div> <!-- page-article-tags-container -->
 
-              <div id="page-article-published-date-container"><h6>Published on 23 March 2016.</h6></div>
-              <div id="page-article-source-container"><h6>Source: <a href="#">Parkway Corporate Communications</a></h6></div>
+              <div id="page-article-published-date-container"><p>Published on 23 March 2016.</p></div>
+              <div id="page-article-source-container"><p>Source: <a href="#">Parkway Corporate Communications</a></p></div>
               <div id="page-article-social-media-container">
                 <ul>
-                  <li><i class="fa fa-share-alt" aria-hidden="true"></i></li>
+                  <li><p><b>Share:</b></p></li>
                   <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
                   <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
@@ -208,7 +209,7 @@
               <div id="page-article-sidebar-container">
 
                 <div id="sidebar-title" class="default-copy">
-                  <h4>you may also like</h4>                                    
+                  <h5>You may also like</h5>                                    
                 </div> <!-- you may also like -->
                 
                 <div id="sidebar-title-image">
@@ -229,7 +230,7 @@
                             <h4 class="item-date">27 Nov 2016</h4>
                           </div>
                         </div>
-                        <h3><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="60">One of our latest products is the 4th generation da Vinci Xi surgical system</a></h3>
+                        <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">One of our latest products is the 4th generation da Vinci Xi surgical system</a></h5>
                       </div>      
                     </div>                
                   </div> <!-- page-default-news-item -->
@@ -245,7 +246,7 @@
                             <h4 class="item-date">23 Oct 2016</h4>
                           </div>
                         </div>
-                        <h3><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="60">St. Luke’s-Global City performs first robotic lung resection in PH</a></h3>
+                        <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">St. Luke’s-Global City performs first robotic lung resection in PH</a></h5>
                       </div>      
                     </div>                
                   </div> <!-- page-default-news-item -->
@@ -261,7 +262,7 @@
                             <h4 class="item-date">18 Sep 2016</h4>
                           </div>
                         </div>
-                        <h3><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="60">Introducing the First Integrated 3D Prostate Cartographer – TRINITY®</a></h3>
+                        <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">Introducing the First Integrated 3D Prostate Cartographer – TRINITY®</a></h5>
                       </div>      
                     </div>                
                   </div> <!-- page-default-news-item -->
@@ -270,14 +271,14 @@
                     <div class="item-column">
                       <div class="item-title">
                         <div class="row">
-                          <div class="col-xs-7">
+                          <div class="col-xs-8">
                             <h4>success stories</h4>
                           </div>
-                          <div class="col-xs-5">
+                          <div class="col-xs-4">
                             <h4 class="item-date">28 Aug 2016</h4>
                           </div>
                         </div>
-                        <h3><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="60">HeartMate 3 successfully implanted in first Singapore patient</a></h3>
+                        <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">HeartMate 3 successfully implanted in first Singapore patient</a></h5>
                       </div>      
                     </div>                
                   </div> <!-- page-default-news-item -->
@@ -300,8 +301,8 @@
 
                 <div class="phone-no">
                   <p class="label">Phone: <p>
-                  <p>(632) 7230101/0301 ext. 4192 (Quezon City) <br>
-                  (632) 7897700 ext. 2116 (Global City)</p>
+                  <p>(632) 7230101/0301 ext. 4192 <br class="visible-xs visible-sm"> (Quezon City) <br>
+                  (632) 7897700 ext. 2116 <br class="visible-xs visible-sm"> (Global City)</p>
                 </div>
 
                 <div class="email-address">

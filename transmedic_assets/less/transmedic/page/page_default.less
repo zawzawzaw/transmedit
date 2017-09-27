@@ -1,14 +1,21 @@
 .default-copy {
   h4 {
-    color: @light-grey-2;
-    font-size: 22px;
-    letter-spacing: 0.05em;    
-    padding-bottom: 20px;  
+    // color: @light-grey-2;    
+    color: @dark-blue;    
   }
 
   h2 {
     padding-bottom: 40px;
   }    
+
+  @media all and (max-width: 991px) {
+    h4 {
+      .h4-style-mobile;
+    }
+    h2 {
+      padding-bottom: 20px;
+    }
+  }
 }
 
 span.default-image-desc {
@@ -31,7 +38,7 @@ span.default-image-desc {
 #page-default-banner-image {
   
   .manic-image-container{
-    height: 580px;
+    height: 500px;
   }
 
   &.short-version {
@@ -46,6 +53,37 @@ span.default-image-desc {
     }
   }
 
+  @media all and (max-width: 991px) {
+    
+    .manic-image-container {
+      height: 450px;
+    }
+
+    &.short-version {
+      .manic-image-container {
+        height: 400px;
+      }
+    }
+    &.short-version-02 {
+      .manic-image-container {
+        height: 300px;
+      }
+    }
+  }
+
+  @media all and (max-width: 480px) {
+    &.short-version {
+      .manic-image-container {
+        height: 200px;
+      }
+    }
+    &.short-version-02 {
+      .manic-image-container {
+        height: 300px;
+      }
+    }
+  }
+
 } // #page-default-banner-image
 
 #page-default-banner-copy-container {
@@ -53,45 +91,37 @@ span.default-image-desc {
   top: 0;
   left: 0;
   width: 100%;
+
+  @media all and (max-width: 991px) {
+    display: none;
+  }
+
 } // #page-default-banner-copy-container
 
 #page-default-banner-copy {
   width: 100%;
-  height: 580px;
+  height: 500px;
   display: table;
+
+  h1{
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 140px;
+    padding-left: 0px;
+  }
+
+  @media only screen and (max-width: 991px) {
+    h1{
+      .h1-style-mobile;
+      padding-bottom: 0px;
+    }
+  }
 
   @media only screen and (max-width: 768px) {
     height: auto;
   }
 
-  h1{
-    display: table-cell;
-    vertical-align: middle;
-    padding-bottom: 70px;
-    padding-left: 42px;
-  }
-
-
-  @media only screen and (max-height: 600px) {
-    h1{
-      .h2-style;
-      padding-bottom: 0px;
-    }
-  }
-
-
 } // #page-default-banner-copy
-
-@media all and (max-width: 991px) {
-  #page-default-banner-image {
-    .manic-image-container {
-      height: 200px;
-    }
-  }
-  #page-default-banner-copy-container {
-    display: none;
-  }
-}
 
 //     _   _________       _______    __________________  ___
 //    / | / / ____/ |     / / ___/   /  _/_  __/ ____/  |/  /
@@ -110,7 +140,7 @@ span.default-image-desc {
       padding-left: 0px;
     }
     &.last-version{
-      padding-right: 0px;
+      padding-right: 0px;      
     }
   }
 
@@ -119,6 +149,14 @@ span.default-image-desc {
     .item-column{
       padding-left: 0px !important;
       padding-right: 0px !important;
+
+      &.last-version {
+        .page-default-news-item {
+          &:after {
+            display: none;
+          }
+        }
+      }
     }
   }
 
@@ -127,45 +165,49 @@ span.default-image-desc {
 .page-default-news-item{
 
   .item-title{
-    margin-bottom: 33px;
+    margin-bottom: 25px;
 
     h4{
-      color: @light-grey-2;
+      // color: @light-grey-2;
+      color: @dark-blue;
     }
     
-    h3{
+    h5{
       a{
         .transition-in-single (color, 0.3s, cubic-bezier(0.645, 0.045, 0.355, 1), 0.1s);
 
         // &:hover{
         &.selected{
-          color: @cyan;
+          color: @light-blue;
           .transition-in-single (color, 0.2s, cubic-bezier(0.645, 0.045, 0.355, 1), 0.0s);
         }
       }
     }
 
 
-    h3{
+    h5{
       padding-top: 6px;   
       // @media all and (max-width: 1280px) {
       //   height: 94px;
       //   overflow-y: hidden;
-      // }
+      // }      
     }
 
 
   }
+
   .item-date{
     text-align: right;
     text-transform: none;
     letter-spacing: 0px;
     margin-left: -5px;
+    display: none;
   }
 
   .item-copy{
     margin-bottom: 19px;
   }
+
   .item-cta-container{
 
   }
@@ -180,6 +222,13 @@ span.default-image-desc {
       display: block;
       margin-bottom: 40px;
     }
+
+    .item-title {
+      h5 {
+        padding-top: 20px;
+      }
+    }
+
     .item-copy{
       margin-bottom: 40px;
     }
@@ -187,6 +236,8 @@ span.default-image-desc {
     .item-cta-container {
       display: none;      
     }
+
+    
   }
 
 } // .page-home-news-item

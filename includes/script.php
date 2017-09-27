@@ -5,7 +5,7 @@
 
   <!-- https://www.myfonts.com/fonts/fontfont/clan-pro/ -->
   <!-- Clan Pro: News, Medium, Black, Bold -->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     (function() {
       var path = '//easy.myfonts.net/v2/js?sid=161560(font-family=FF+Clan+Pro+News)&sid=162099(font-family=FF+Clan+Pro+Medium)&sid=162164(font-family=FF+Clan+Pro+Black)&sid=162165(font-family=FF+Clan+Pro+Bold)&key=2giL8NLLQV',
         protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
@@ -21,7 +21,9 @@
     #mfPreviewBar{
       display: none;
     }
-  </style>
+  </style> -->
+
+  <?php //include('fonts.php'); ?>
 
 
   <?php $is_debug = true; ?>

@@ -22,6 +22,7 @@ transmedic.page.New = function(options, element) {
 
   this.create_feature_carousel();
   this.create_filters();
+  this.create_mobile_filters();
 
   this.append_html = "";  
   this.current_page = 1;
@@ -235,6 +236,10 @@ transmedic.page.New = function(options, element) {
   this.create_load_more_btn();
 
   console.log('transmedic.page.New: init');
+
+  // $("body").on('DOMSubtreeModified', ".goog-menu-button-caption", function() { 
+  //   $("#news_filter").trigger("change");
+  // });
 };
 goog.inherits(transmedic.page.New, transmedic.page.Default);
 
@@ -292,6 +297,15 @@ transmedic.page.New.prototype.create_filters = function() {
 
 };
 
+transmedic.page.New.prototype.create_mobile_filters = function() {
+
+  this.filter_categories_mobile = $("#news_filter");
+
+  // console.log(this.filter_categories_mobile.val())
+  this.filter_categories_mobile.on('change', this.on_category_change.bind(this));
+
+};
+
 transmedic.page.New.prototype.create_load_more_btn = function() {
 
   this.load_more_news = $("#page-news-load-more-cta-container a");
@@ -311,10 +325,13 @@ transmedic.page.New.prototype.append_to_news_container = function(i) {
       var a = i + 1;
       this.counter_a = this.counter_i + 1;
 
+      // console.log(this.counter_i);
+      // console.log(this.total_news_page);
+
       if(this.counter_i==0) {
         this.append_html += '<div class="row">'+news_html;
       }
-      else if(this.counter_i == this.news_count - 1) {
+      else if(this.counter_i == this.news_per_page - 1) {
         this.append_html += news_html+'</div>';
       }
       else if (this.counter_a % 3 === 0) {
@@ -329,6 +346,8 @@ transmedic.page.New.prototype.append_to_news_container = function(i) {
   } else {
     this.load_more_news.hide();
   }
+
+  // console.log(this.append_html);
 
   $("#page-default-news-item-container").html(this.append_html);
 
@@ -435,6 +454,25 @@ transmedic.page.New.prototype.public_method_06 = function() {};
 transmedic.page.New.prototype.on_category_click = function(event) {
   this.current_category = $(event.currentTarget).attr("href");
   this.current_category = this.current_category.slice(1);
+
+  $(".active-cat").removeClass("active-cat");
+  $(event.currentTarget).addClass("active-cat");
+
+  if(this.current_category!=='all') {
+    this.load_more_news.hide();
+  } else {
+    this.load_more_news.show();
+  }
+
+  this.get_filter_news();
+
+};
+
+/**
+ * @param {object} event
+ */
+transmedic.page.New.prototype.on_category_change = function(event) {
+  this.current_category = $(event.currentTarget).val();  
 
   $(".active-cat").removeClass("active-cat");
   $(event.currentTarget).addClass("active-cat");

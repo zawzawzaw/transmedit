@@ -71,19 +71,28 @@ transmedic.page.Article.prototype.create_article_carousel = function() {
     'pauseOnHover': false,
     'autoplay': false,
     'autoplaySpeed': 4000,  
-    "asNavFor": '#page-article-image-carousel-nav'
+    "asNavFor": '#page-article-image-carousel-nav',
+    "responsive": [
+      {
+        "breakpoint": 991,
+        "settings": {
+          "centerMode": true,
+          "centerPadding": "25px"
+        }
+      }
+    ]
   });
 
   $('#page-article-image-carousel-nav').slick({
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    asNavFor: '#page-article-image-carousel',
-    dots: false,
-    focusOnSelect: true,
-    arrows: false,
-    infinite: true,
-    centerMode: true,
-    centerPadding: 0,
+    "slidesToShow": 5,
+    "slidesToScroll": 1,
+    "asNavFor": '#page-article-image-carousel',
+    "dots": false,
+    "focusOnSelect": true,
+    "arrows": false,
+    "infinite": true,
+    "centerMode": true,
+    "centerPadding": 0,
   });
 
   // $('#page-article-image-carousel-nav').on('click', '.slick-slide', function (e) {

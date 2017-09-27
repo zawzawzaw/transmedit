@@ -13,12 +13,12 @@
 -->
 
 
-<header id="header-desktop" class="hidden-sm hidden-xs">
+<header id="header-desktop" class="visible-lg hidden-md hidden-sm hidden-xs">
   <div class="white-bg"></div>
 
   <div id="header-desktop-content-container">
     <div id="header-desktop-logo-container">
-      <a id="header-desktop-logo" href="index.php" title="Transmedic - Advancing Medical Technologies"></a>
+      <a id="header-desktop-logo" href="index.php" title="Transmedic - Advancing Medical Technologies">Transmedic</a>
       <!-- <a id="header-desktop-logo-expanded" href="index.php" title="Transmedic - Advancing Medical Technologies"></a> -->
     </div>
 

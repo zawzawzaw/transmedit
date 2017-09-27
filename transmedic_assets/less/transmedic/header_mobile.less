@@ -3,7 +3,7 @@
   z-index: 200000;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100%;  
 
   .white-bg{
     position: absolute;
@@ -12,6 +12,7 @@
     width: 100%;    
     height: @header-mobile-height;
     background: @white;
+    .box-shadow (1px, 1px, 16px, rgba(81,73,71,.25));
 
     .transition-in(0.7s, cubic-bezier(0.645, 0.045, 0.355, 1), 0.0s);
   }
@@ -45,9 +46,14 @@
   position: absolute;
   top: 10px;
   left: 20px;
+  .clanot-medium;
+  font-size: 24px;
+  line-height: 40px;
+  color: @black;
+  text-transform: lowercase;
 
   display: block;
-  .logo-transmedic-header-mobile;
+  // .logo-transmedic-header-mobile;
 
   // .transition-in(0.4s, cubic-bezier(0.645, 0.045, 0.355, 1), 0.3s);
   

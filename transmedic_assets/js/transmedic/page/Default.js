@@ -6,6 +6,7 @@ goog.require('goog.events.EventTarget');
 goog.require('manic.page.Page');
 
 goog.require('manic.ui.BoxItem');
+goog.require('manic.ui.Dropdown');
 
 
 
@@ -46,6 +47,16 @@ transmedic.page.Default = function(options, element) {
   //      \_/_/   \_\_| \_\
   //
 
+  /**
+   * @type {Array.<manic.ui.Dropdown>}
+   */
+  this.dropdown_array = [];
+
+  /**
+   * @type {Array.<manic.ui.Dropdown>}
+   */
+  this.dropdown_dictionary = [];
+
 
   /**
    * @type {transmedic.component.HeaderDesktop}
@@ -56,6 +67,20 @@ transmedic.page.Default = function(options, element) {
     * @type {transmedic.component.HeaderMobile}
     */
   this.header_mobile = null;
+
+  this.page_wrapper = $('#page-wrapper');
+  this.page_wrapper_content = $('#page-wrapper-content');
+
+  // min height variables
+  this.is_page_min_height = false;
+  if( this.body.hasClass('min-height-version') == true ){
+    this.is_page_min_height = true;
+  }
+
+  this.is_page_min_height_mobile = false;
+  if( this.body.hasClass('min-height-mobile-version') == true ){
+    this.is_page_min_height_mobile = true;
+  }
 
 
 
@@ -85,6 +110,8 @@ transmedic.page.Default.prototype.init = function() {
   this.create_header_desktop();
 
   this.create_hover_sync_items();
+
+  this.create_dropdown();
   
   // this.create_header_mobile();
   // 
@@ -196,9 +223,19 @@ transmedic.page.Default.prototype.expandable_text = function() {
       var t = $(this).html();
       var maxLength = $(this).data('length');
 
-      if(manic.IS_ACTUAL_MOBILE == true && manic.IS_TABLET_LANDSCAPE) {
+      if(manic.IS_TABLET_LANDSCAPE == true) {
         maxLength = $(this).data('tablet-length');
       }
+
+      if(manic.IS_TABLET_PORTRAIT == true) {
+        maxLength = $(this).data('mobile-length');
+      }
+
+      if(manic.IS_MOBILE == true) {
+        maxLength = $(this).data('mobile-length');
+      }
+
+      console.log(maxLength)
 
       if(t.length < maxLength) return;
 
@@ -231,6 +268,29 @@ transmedic.page.Default.prototype.expandable_text = function() {
 
 }
 
+transmedic.page.Default.prototype.create_dropdown = function() {
+  var arr = $('.manic-dropdown').not('.manic-dropdown-instanciated');
+  var item = null;
+  var item_id = "";
+
+  /**
+   * @type {manic.ui.Dropdown}
+   */
+  var dropdown = null;
+
+  for (var i = 0, l = arr.length ; i < l; i++) {
+    item = $(arr[i]);
+    item.addClass('manic-dropdown-instanciated');
+
+    item_id = '' + item.find('select').attr('id');
+
+    dropdown = new manic.ui.Dropdown({}, item);
+    this.dropdown_array[this.dropdown_array.length] = dropdown;
+
+    this.dropdown_dictionary[item_id] = dropdown;
+  }
+};
+
 
 
 //    _        _ __   _____  _   _ _____
@@ -252,6 +312,25 @@ transmedic.page.Default.prototype.update_page_layout = function(){
     this.body.addClass('actual-mobile-version');
   } else {
     this.body.removeClass('actual-mobile-version');
+  }
+
+  if (this.is_page_min_height == true && manic.IS_MOBILE == false) {
+    var target_height = this.page_wrapper.height() - this.desktop_footer_element.outerHeight();
+
+    this.page_wrapper_content.css({
+      'min-height': target_height + 'px'
+    });
+  }
+
+
+  if (this.is_page_min_height_mobile == true && manic.IS_MOBILE == true) {
+    var target_height = this.page_wrapper.height() - this.mobile_header_element.outerHeight();
+
+    console.log(target_height);
+
+    this.page_wrapper_content.css({
+      'min-height': target_height + 'px'
+    });
   }
 
   

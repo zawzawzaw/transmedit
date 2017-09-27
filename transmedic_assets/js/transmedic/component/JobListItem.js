@@ -29,6 +29,7 @@ transmedic.component.JobListItem = function(options, element) {
   this.is_job_detail_expanded = false;
   this.view_detail_cta = this.element.find(".view-details-cta");
   this.job_detail_container = this.element.find(".job-list-item-content");
+  this.job_list_item_title = this.element.find(".job-list-item-job-title-container h6");
 
 
   this.view_detail_cta.click(this.on_view_detail_click.bind(this));
@@ -72,6 +73,7 @@ transmedic.component.JobListItem.EVENT_02 = '';
 transmedic.component.JobListItem.prototype.job_detail_expand = function() {
   if(this.is_job_detail_expanded==false) {
     this.is_job_detail_expanded = true;
+    this.job_list_item_title.addClass("active");
     this.view_detail_cta.html('Hide details');
     this.job_detail_container.slideDown(500);
   }
@@ -79,6 +81,7 @@ transmedic.component.JobListItem.prototype.job_detail_expand = function() {
 transmedic.component.JobListItem.prototype.job_detail_collapse = function() {
   if(this.is_job_detail_expanded==true) {
     this.is_job_detail_expanded = false;
+    this.job_list_item_title.removeClass("active");
     this.view_detail_cta.html('View details');
     this.job_detail_container.slideUp(500);
   }

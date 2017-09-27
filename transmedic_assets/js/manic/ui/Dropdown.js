@@ -435,6 +435,7 @@ manic.ui.Dropdown.prototype.on_goog_select_change = function(event) {
   }
 
   this.select_element.val(this.current_value);
+  this.select_element.trigger("change");
   
   if(manic.IS_MOBILE == false){
     this.dispatchEvent(new goog.events.Event(manic.ui.Dropdown.ON_CHANGE));

@@ -71,7 +71,7 @@
                   <div class="scroll-target" data-value="surgical"></div>                
                   <div class="page-products-brands-icon-view-tab-item">
 
-                    <h5 class="item-title add-space-version">Surgical</h5>
+                    <h3 class="item-title add-space-version">Surgical</h3>
 
                     <ul class="item-icons-list">
                       <li><div class="surgical-icon-1 item-icon"></div></li>
@@ -87,7 +87,7 @@
                   <div class="scroll-target" data-value="orthopaedics"></div>       
                   <div class="page-products-brands-icon-view-tab-item">
 
-                    <h5 class="item-title">Orthopaedics</h5>
+                    <h3 class="item-title">Orthopaedics</h3>
 
                     <ul class="item-icons-list align-middle">
                       <li><div class="orthopaedics-icon-1 item-icon"></div></li>
@@ -105,7 +105,7 @@
                   <div class="scroll-target" data-value="in-vitro-diagnostics"></div>                
                   <div class="page-products-brands-icon-view-tab-item">
 
-                    <h5 class="item-title add-space-version">In-vitro Diagnostics</h5>
+                    <h3 class="item-title add-space-version">In-vitro Diagnostics</h3>
 
                     <ul class="item-icons-list">
                       <li><div class="in-vitro-icon-1 item-icon"></div></li>
@@ -122,7 +122,7 @@
                   <div class="scroll-target" data-value="specialty-pharmaceuticals-medical"></div>                
                   <div class="page-products-brands-icon-view-tab-item">
 
-                    <h5 class="item-title">Specialty Pharmaceuticals / Medicine</h5>
+                    <h3 class="item-title">Specialty Pharmaceuticals / Medicine</h3>
 
                     <ul class="item-icons-list align-middle">
                       <li><div class="pharmaceuticals-icon-1 item-icon"></div></li>
@@ -141,7 +141,7 @@
                   <div class="scroll-target" data-value="turnkey-solutions"></div>                
                   <div class="page-products-brands-icon-view-tab-item">
 
-                    <h5 class="item-title">Turnkey Solutions</h5>
+                    <h3 class="item-title">Turnkey Solutions</h3>
 
                     <ul class="item-icons-list align-middle">
                       <li><div class="turnkey-icon-1 item-icon"></div></li>
@@ -158,7 +158,7 @@
                   <div class="scroll-target" data-value="therapeutics"></div>                
                   <div class="page-products-brands-icon-view-tab-item">
 
-                    <h5 class="item-title add-space-version">Therapeutics</h5>
+                    <h3 class="item-title add-space-version">Therapeutics</h3>
 
                     <ul class="item-icons-list align-middle">
                       <li><div class="therapeutics-icon-1 item-icon"></div></li>
@@ -176,7 +176,7 @@
                   <div class="scroll-target" data-value="interventional-therapy"></div>                
                   <div class="page-products-brands-icon-view-tab-item">
 
-                    <h5 class="item-title">Interventional Therapy</h5>
+                    <h3 class="item-title">Interventional Therapy</h3>
 
                     <ul class="item-icons-list align-middle">
                       <li><div class="interventional-icon-1 item-icon"></div></li>
@@ -202,7 +202,7 @@
 
                   <div id="page-products-brands-list-view-items">
                     <div class="page-products-brands-list-view-item">
-                      <h5 class="item-title">Surgical</h5>
+                      <h3 class="item-title">Surgical</h3>
                       <ul class="item-list">
                         <li><p><b>ISI</b></p></li>
                         <li><p><b>Thoratec (Abbott)</b></p></li>
@@ -210,7 +210,7 @@
                       <p class="item-email">Email: <a href="mailto:enquiry@transmedic.com">enquiry@transmedic.com</a></p>
                     </div>
                     <div class="page-products-brands-list-view-item">
-                      <h5 class="item-title">Orthopaedics</h5>
+                      <h3 class="item-title">Orthopaedics</h3>
                       <ul class="item-list">
                         <li><p><b>Stryker</b></p></li>
                         <li><p><b>Mako</b></p></li>
@@ -220,7 +220,7 @@
                       <p class="item-email">Email: <a href="mailto:enquiry@transmedic.com">enquiry@transmedic.com</a></p>
                     </div>
                     <div class="page-products-brands-list-view-item">
-                      <h5 class="item-title">In-vitro Diagnostics</h5>
+                      <h3 class="item-title">In-vitro Diagnostics</h3>
                       <ul class="item-list">
                         <li><p><b>Abbott POC</b></p></li>
                         <li><p><b>iLine Microsystems</b></p></li>
@@ -229,7 +229,7 @@
                       <p class="item-email">Email: <a href="mailto:enquiry@transmedic.com">enquiry@transmedic.com</a></p>
                     </div>
                     <div class="page-products-brands-list-view-item">
-                      <h5 class="item-title">Turnkey Solutions</h5>
+                      <h3 class="item-title">Turnkey Solutions</h3>
                       <ul class="item-list">
                         <li><p><b>Accuray</b></p></li>
                         <li><p><b>Stryker OT Systems</b></p></li>
@@ -238,7 +238,7 @@
                       <p class="item-email">Email: <a href="mailto:enquiry@transmedic.com">enquiry@transmedic.com</a></p>
                     </div>
                     <div class="page-products-brands-list-view-item">
-                      <h5 class="item-title">Therapeutics</h5>
+                      <h3 class="item-title">Therapeutics</h3>
                       <ul class="item-list">
                         <li><p><b>Therak (Mallinckrodt)</b></p></li>
                         <li><p><b>Belmont</b></p></li>
@@ -248,7 +248,7 @@
                       <p class="item-email">Email: <a href="mailto:enquiry@transmedic.com">enquiry@transmedic.com</a></p>
                     </div>
                     <div class="page-products-brands-list-view-item">
-                      <h5 class="item-title">Interventional Therapy</h5>
+                      <h3 class="item-title">Interventional Therapy</h3>
                       <ul class="item-list">
                         <li><p><b>Volcano (Philips Medical)</b></p></li>
                         <li><p><b>Stryker NV</b></p></li>
@@ -258,7 +258,7 @@
                       <p class="item-email">Email: <a href="mailto:enquiry@transmedic.com">enquiry@transmedic.com</a></p>
                     </div>
                     <div class="page-products-brands-list-view-item">
-                      <h5 class="item-title">Specialty Pharmaceuticals / Medicine</h5>
+                      <h3 class="item-title">Specialty Pharmaceuticals / Medicine</h3>
                       <ul class="item-list">
                         <li><p><b>Baxter</b></p></li>
                         <li><p><b>Spectrum Dynamics</b></p></li>

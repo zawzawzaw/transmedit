@@ -43,7 +43,7 @@
         <div id="page-default-banner-image">
           <div class="manic-image-container">
             <img src="" data-image-desktop="images_cms/home/home-banner.jpg"
-                        data-image-tablet="images_cms/home/home-banner-tablet.jpg"
+                        data-image-tablet="images_cms/home/home-banner.jpg"
                         data-image-mobile="images_cms/home/home-banner-mobile.jpg">
           </div>
         </div>
@@ -113,8 +113,8 @@
                             <div class="manic-image-container">
                               <img src=""
                                 data-image-desktop="images_cms/home/home-whatwedo-01.jpg"
-                                data-image-tablet="images_cms/home/home-whatwedo-01-tablet.jpg"
-                                data-image-mobile="images_cms/home/home-whatwedo-01-mobile.jpg">
+                                data-image-tablet="images_cms/home/home-whatwedo-01.jpg"
+                                data-image-mobile="images_cms/home/home-whatwedo-01.jpg">
                             </div>
                           </a>
                           <div class="item-copy">
@@ -142,8 +142,8 @@
                             <div class="manic-image-container">
                               <img src=""
                                 data-image-desktop="images_cms/home/home-whatwedo-02.jpg"
-                                data-image-tablet="images_cms/home/home-whatwedo-02-tablet.jpg"
-                                data-image-mobile="images_cms/home/home-whatwedo-02-mobile.jpg">
+                                data-image-tablet="images_cms/home/home-whatwedo-02.jpg"
+                                data-image-mobile="images_cms/home/home-whatwedo-02.jpg">
                             </div>
                           </a>
                           <div class="item-copy">
@@ -171,8 +171,8 @@
                             <div class="manic-image-container">
                               <img src=""
                                 data-image-desktop="images_cms/home/home-whatwedo-03.jpg"
-                                data-image-tablet="images_cms/home/home-whatwedo-03-tablet.jpg"
-                                data-image-mobile="images_cms/home/home-whatwedo-03-mobile.jpg">
+                                data-image-tablet="images_cms/home/home-whatwedo-03.jpg"
+                                data-image-mobile="images_cms/home/home-whatwedo-03.jpg">
                             </div>
                           </a>
                           <div class="item-copy">
@@ -223,95 +223,68 @@
             <div class="col-md-12">
 
               <div id="page-home-latest-item-container">
-                <div class="row">
-                  <div class="col-md-7">
-                    <div id="page-home-latest-column-01-width"></div>
-
-                    <!--
-                        ___  _
-                       / _ \/ |
-                      | | | | |
-                      | |_| | |
-                       \___/|_|
-
-                    -->
-
-                    <div id="page-home-latest-item-01" class="page-home-latest-item hover-sync-item">
-
-                      <div class="item-image-container">
-                        <div class="item-image">
-                          <div class="manic-image-container full-width-version-mobile">
-                            <img src="" data-image-desktop="images_cms/home/home-latest-01.jpg"
-                            data-image-tablet="images_cms/home/home-latest-01.jpg"
-                            data-image-mobile="images_cms/home/home-latest-01.jpg">
-                          </div>
-                        </div>
+                
+                <div class="page-home-lastest-item">
+                  <div class="row">
+                    <div class="col-md-8 v-align-col">
+                      <div class="manic-image-container">
+                        <img src="" data-image-desktop="images_cms/home/home-latest-01.jpg"
+                                    data-image-tablet="images_cms/home/home-latest-01.jpg"
+                                    data-image-mobile="images_cms/home/home-latest-01.jpg" alt="">
                       </div>
-                      <div class="item-copy">
-                        <div class="item-tag">Solution for Epilepsy</div>
-                        <h3><a href="article.php" class="hover-sync">VNS Therapy® – The Most Proven Device Solution for Epilepsy</a></h3>
-                        <a href="article.php" class="plain-arrow-cta hover-sync">Read More</a>
+                    </div><!--
+                    --><div class="col-md-4 v-align-col">
+                      <div class="text-container">
+                        <h3>Solution For Epilepsy</h3>
+                        <p>VNS Therapy® – The Most Proven Device Solution for Epilepsy</p>                      
+                      </div>
+                      <div class="cta-container">
+                        <a href="article.php" class="read-more-cta">Read more</a>
                       </div>
                     </div>
-
-                  </div>
-                  <div class="col-md-5">
-                    <div id="page-home-latest-column-02-width"></div>
-
-                    <!--
-                        ___ ____
-                       / _ \___ \
-                      | | | |__) |
-                      | |_| / __/
-                       \___/_____|
-
-                    -->
-
-                    <div id="page-home-latest-item-02" class="page-home-latest-item hover-sync-item">
-                      <div class="item-image-container">
-                        <div class="item-image">
-                          <div class="manic-image-container full-width-version-mobile">
-                            <img src="" data-image-desktop="images_cms/home/home-latest-02.jpg"
-                            data-image-tablet="images_cms/home/home-latest-02.jpg"
-                            data-image-mobile="images_cms/home/home-latest-02.jpg">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="item-copy">
-                        <div class="item-tag">Monitoring Device</div>
-                        <h3><a href="article.php" class="hover-sync">CoTI® provides real-time gamma activity for dosimetry calculations</a></h3>
-                        <a href="article.php" class="plain-arrow-cta hover-sync">Read More</a>
-                      </div>
-                    </div>
-
-                    <!--
-                        ___ _____
-                       / _ \___ /
-                      | | | ||_ \
-                      | |_| |__) |
-                       \___/____/
-
-                    -->
-
-                    <div id="page-home-latest-item-03" class="page-home-latest-item hover-sync-item">
-                      <div class="item-image-container">
-                        <div class="item-image">
-                          <div class="manic-image-container full-width-version-mobile">
-                            <img src="" data-image-desktop="images_cms/home/home-latest-03.jpg"
-                            data-image-tablet="images_cms/home/home-latest-03.jpg"
-                            data-image-mobile="images_cms/home/home-latest-03.jpg">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="item-copy">
-                        <div class="item-tag">Robot Assisted Surgery</div>
-                        <h3><a href="article.php" class="hover-sync">MAKO Technology –  less extensive, more effective.</a></h3>
-                        <a href="article.php" class="plain-arrow-cta hover-sync">Read More</a>
-                      </div>
-                    </div>
-
                   </div>
                 </div>
+                <div class="page-home-lastest-item">
+                  <div class="row">
+                    <div class="col-md-8 v-align-col">
+                      <div class="manic-image-container">
+                        <img src="" data-image-desktop="images_cms/home/home-latest-02.jpg"
+                                    data-image-tablet="images_cms/home/home-latest-02.jpg"
+                                    data-image-mobile="images_cms/home/home-latest-02.jpg" alt="">
+                      </div>
+                    </div><!--
+                    --><div class="col-md-4 v-align-col">
+                      <div class="text-container">
+                        <h3>Monitoring Device</h3>
+                        <p>CoTI® provides real-time gamma activity for dosimetry calculations</p>                      
+                      </div>
+                      <div class="cta-container">
+                        <a href="article.php" class="read-more-cta">Read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="page-home-lastest-item">
+                  <div class="row">
+                    <div class="col-md-8 v-align-col">
+                      <div class="manic-image-container">
+                        <img src="" data-image-desktop="images_cms/home/home-latest-03.jpg"
+                                    data-image-tablet="images_cms/home/home-latest-03.jpg"
+                                    data-image-mobile="images_cms/home/home-latest-03.jpg" alt="">
+                      </div>
+                    </div><!--
+                    --><div class="col-md-4 v-align-col">
+                      <div class="text-container">
+                        <h3>Robot Assisted Surgery</h3>
+                        <p>MAKO Technology –  less extensive, more effective.</p>                      
+                      </div>
+                      <div class="cta-container">
+                        <a href="article.php" class="read-more-cta">Read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
               </div> <!-- page-home-latest-item-container -->
 
             </div>
@@ -337,7 +310,7 @@
         <div class="container-fluid has-breakpoint">
 
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-5">
 
               <div id="page-home-brand-title">
                 <h4 class="visible-xs visible-sm">Our products</h4>
@@ -345,33 +318,28 @@
               </div> <!-- page-home-brand-title -->
 
             </div>
-          </div> <!-- row -->
+          
+            <div class="col-md-6 hidden-xs hidden-sm">
+              
+              <div id="page-home-brand-copy-links-container">
+                <div id="page-home-brand-copy">
+                  <h4>Quicklinks to our brands</h4>
+                </div>
 
-          <div class="row hidden-xs hidden-sm">
-            <div class="col-md-12">
-
-              <div id="page-home-brand-copy">
-                <h4>Quicklinks to our brands</h4>
+                <div id="page-home-brand-links">
+                  <ul>
+                    <li><a href="products.php#surgical">Surgical</a></li>
+                    <li><a href="products.php#orthopaedics">Orthopaedics</a></li>
+                    <li><a href="products.php#in-vitro-diagnostics">In-vitro Diagnostics</a></li>
+                    <li><a href="products.php#specialty-pharmaceuticals-medical">Specialty Pharmaceuticals / Medical</a></li>
+                  </ul>                
+                  <ul>
+                    <li><a href="products.php#turnkey-solutions">Turnkey Solutions</a></li>
+                    <li><a href="products.php#therapeutics">Therapeutics</a></li>
+                    <li><a href="products.php#interventional-therapy">Interventional Therapy</a></li>
+                  </ul>              
+                </div> <!-- page-home-brand-links -->
               </div>
-
-              <div id="page-home-brand-links">
-                <ul>
-                  <li><a href="products.php#surgical">Surgical</a></li>
-                  <li><a href="products.php#orthopaedics">Orthopaedics</a></li>
-                </ul>
-                <ul>
-                  <li><a href="products.php#in-vitro-diagnostics">In-vitro Diagnostics</a></li>
-                  <li><a href="products.php#specialty-pharmaceuticals-medical">Specialty Pharmaceuticals / Medical</a></li>
-                </ul>
-                <ul>
-                  <li><a href="products.php#turnkey-solutions">Turnkey Solutions</a></li>
-                  <li><a href="products.php#therapeutics">Therapeutics</a></li>
-                </ul>
-                <ul>
-                  <li><a href="products.php#interventional-therapy">Interventional Therapy</a></li>
-                </ul>
-
-              </div> <!-- page-home-brand-links -->
 
             </div>
           </div> <!-- row -->
@@ -421,8 +389,8 @@
         <div id="page-home-map-copy-container">
           <div class="container-fluid has-breakpoint">
             <div class="row">
-              <div class="col-md-3"></div>
-              <div class="col-md-9">
+              <div class="col-md-5"></div>
+              <div class="col-md-7">
 
                 <div id="page-home-map-copy">
 
@@ -462,11 +430,13 @@
                     <h4>Our Locations</h4>
                     <ul>
                       <li>Singapore</li>
-                      <li>Malaysia</li>
-                      <li>Indonesia</li>
+                      <li>Malaysia</li>                      
                     </ul>
                     <ul>
-                      <li>Hong Kong</li>
+                      <li>Indonesia</li>
+                      <li>Hong Kong</li>                      
+                    </ul>
+                    <ul>
                       <li>Thailand</li>
                       <li>Vietnam</li>
                     </ul>
@@ -506,10 +476,11 @@
         <div class="container-fluid has-breakpoint">
 
           <div class="row">
-
-            <div id="page-home-news-title">
-              <h2>In The News</h2>
-            </div> <!-- page-home-news-title -->
+            <div class="col-md-12">
+              <div id="page-home-news-title">
+                <h2>In The News</h2>
+              </div> <!-- page-home-news-title -->
+            </div>
           </div> <!-- row -->
 
           <div class="row">
@@ -539,13 +510,13 @@
                               <h4 class="item-date">27 Jul 2017</h4>
                             </div>
                           </div>
-                          <h3><a href="article.php" class="hover-sync">The Medical City (TMC) introduces Emprint™ Microwave Ablation (MWA)</a></h3>
+                          <h5><a href="article.php" class="hover-sync">The Medical City (TMC) introduces Emprint™ Microwave Ablation (MWA)</a></h5>
                         </div>
                         <div class="item-copy">
                           <p>The Medical City (TMC) introduces Emprint™ Microwave Ablation (MWA), a new technology that destroys tumors using heat generated by microwave energy.</p>
                         </div>
                         <div class="item-cta-container">
-                          <a href="article.php" class="plain-arrow-cta hover-sync">Read More</a>
+                          <a href="article.php" class="read-more-cta hover-sync">Read More</a>
                         </div>
                       </div> <!-- page-default-news-item -->
 
@@ -573,13 +544,13 @@
                               <h4 class="item-date">18 Jun 2017</h4>
                             </div>
                           </div>
-                          <h3><a href="article.php" class="hover-sync">100 cases celebration with Mako Robotics: Dr. Jeffrey Chew</a></h3>
+                          <h5><a href="article.php" class="hover-sync">100 cases celebration with Mako Robotics: Dr. Jeffrey Chew</a></h5>
                         </div>
                         <div class="item-copy">
                           <p>Dr Jeffrey Chew is a practicing consultant orthopaedic surgeon at Mount Elizabeth Hospital, Mount Elizabeth Novena Hospital and Parkway East Hospital.</p>
                         </div>
                         <div class="item-cta-container">
-                          <a href="article.php" class="plain-arrow-cta hover-sync">Read More</a>
+                          <a href="article.php" class="read-more-cta hover-sync">Read More</a>
                         </div>
                       </div> <!-- page-default-news-item -->
 
@@ -607,13 +578,13 @@
                               <h4 class="item-date">05 Jun 2017</h4>
                             </div>
                           </div>
-                          <h3><a href="article.php" class="hover-sync">Poctions 2016: Today’s actions for tomorrow’s patients</a></h3>
+                          <h5><a href="article.php" class="hover-sync">Poctions 2016: Today’s actions for tomorrow’s patients</a></h5>
                         </div>
                         <div class="item-copy">
                           <p>Together with the Singapore Association for the Medical Laboratory Sciences, Transmedic organised POCTions – a conflation of the terms POCT and “solutions” – on 15 October ...</p>
                         </div>
                         <div class="item-cta-container">
-                          <a href="article.php" class="plain-arrow-cta hover-sync">Read More</a>
+                          <a href="article.php" class="read-more-cta hover-sync">Read More</a>
                         </div>
                       </div> <!-- page-default-news-item -->
 

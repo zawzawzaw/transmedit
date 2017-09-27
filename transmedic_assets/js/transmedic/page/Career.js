@@ -74,6 +74,9 @@ transmedic.page.Career.prototype.create_jobs_list_item = function() {
 };
 transmedic.page.Career.prototype.create_location_tab = function() {
   var location_tab_item = $('#page-careers-job-filters-container ul li a');
+  var location_filter_mobile = $("#location_filter");
+
+  location_filter_mobile.on("change", this.on_location_filter_change.bind(this));
   
   location_tab_item.click(this.on_location_tab_item_click.bind(this));
 };
@@ -117,6 +120,23 @@ transmedic.page.Career.prototype.on_location_tab_item_click = function(event) {
   
   $(event.currentTarget).addClass('active-tab');
   $(href+"-positions").addClass('active-tab');
+
+  this.update_page_layout();
+};
+
+/**
+ * @param {object} event
+ */
+transmedic.page.Career.prototype.on_location_filter_change = function(event) {
+  event.preventDefault();
+
+  var location = $(event.currentTarget).val();
+
+  $('.active-tab').removeClass('active-tab');
+  $(location+"-positions").addClass('active-tab');
+
+  this.update_page_layout();
+
 };
 
 /**
