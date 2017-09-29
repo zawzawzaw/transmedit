@@ -41,7 +41,7 @@
 
       <article id="page-default-banner-section">
         <div id="page-default-banner-image">
-          <div class="manic-image-container">
+          <div class="manic-image-container" data-vertical-align="top">
             <img src="" data-image-desktop="images_cms/home/home-banner.jpg"
                         data-image-tablet="images_cms/home/home-banner-tablet.jpg"
                         data-image-mobile="images_cms/home/home-banner-mobile.jpg">
@@ -370,12 +370,12 @@
       <article id="page-home-map-section">
 
         <div id="page-home-map-imge-bg">
-          <img src="images_cms/home/home-map-new-02-bg.svg">
+          <img src="images_cms/home/home-map-new-03-bg.svg">
         </div>
 
         <div id="page-home-map-image">
 
-          <div class="manic-animated-svg fit-to-layout-version" id="home-map-animated-svg" data-image="images_cms/home/home-map-new-02c.svg" data-width="1380" data-height="800">
+          <div class="manic-animated-svg fit-to-layout-version" id="home-map-animated-svg" data-image="images_cms/home/home-map-new-03.svg" data-width="1380" data-height="800">
           </div>
           <!--
 

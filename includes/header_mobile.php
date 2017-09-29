@@ -18,7 +18,7 @@
   <div id="header-mobile-content-container">
     <div id="header-mobile-logo-container">
       <!-- <a id="header-mobile-logo" href="index.php" title="Transmedic - Advancing Medical Technologies"></a> -->
-      <a id="header-mobile-logo" href="index.php" title="Transmedic - Advancing Medical Technologies">Transmedic</a>
+      <a id="header-mobile-logo" href="index.php" title="Transmedic - Advancing Medical Technologies"></a>
     </div>
 
     <div id="header-mobile-menu-opener-container">

@@ -479,4 +479,105 @@
 
   }
 
+  &.career-detail-page-version{
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+    .item-column {
+      padding-left: 0px;
+      padding-right: 0px;
+
+      position: relative;
+      margin-bottom: 52px;
+
+      &:after {
+        content: "";
+        border-bottom: 1px solid @border-grey;
+        position: absolute;
+        bottom: -27px;
+        width: 100%;
+      }
+    }
+
+    .page-default-news-item {
+      .item-title {
+        margin-bottom: 25px;
+        h5 {
+          padding-top: 0px;          
+          a {
+            font-size: 18px;  
+            line-height: 24px;
+            &:hover {
+              color: @light-blue;
+            }
+          }      
+        }
+      }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+//     ____    _    ____  _____ _____ ____  ____
+//    / ___|  / \  |  _ \| ____| ____|  _ \/ ___|
+//   | |     / _ \ | |_) |  _| |  _| | |_) \___ \
+//   | |___ / ___ \|  _ <| |___| |___|  _ < ___) |
+//    \____/_/   \_\_| \_\_____|_____|_| \_\____/
+//
+
+
+#page-article-sidebar-fixed-container{
+  position: relative;
+
+  #page-article-sidebar-container{
+  }
+}
+
+#page-article-career-item-container{
+  .page-article-career-item{
+    position: relative;
+    margin-bottom: 200px;
+
+    &:after{
+      content: '';
+      display: block;
+
+      position: absolute;
+      bottom: -100px;
+      left: 0px;
+      width: 100%;
+
+
+      border-bottom: 1px solid @border-grey;
+    }
+
+
+    // this should be a class
+    #page-article-text-container{
+      margin-bottom: 0px;
+      @media all and (max-width: 991px) {
+      }
+    }
+
+    &:last-child{
+      margin-bottom: 0px;
+      &:after{
+        display: none;
+      }
+
+      #page-article-text-container{
+        margin-bottom: 70px;
+        @media all and (max-width: 991px) {
+          margin-bottom: 40px;
+        }
+      }
+
+    }
+  }
 }

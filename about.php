@@ -76,9 +76,9 @@
                     </div>
                     <div class="page-default-banner-profile-images-item">
                       <div class="manic-image-container">
-                        <img src="" data-image-desktop="images_cms/about/banner-profile-pic-02.jpg"
-                                    data-image-tablet="images_cms/about/banner-profile-pic-02.jpg"
-                                    data-image-mobile="images_cms/about/banner-profile-pic-02.jpg" alt="">
+                        <img src="" data-image-desktop="images_cms/about/banner-profile-pic-02b.jpg"
+                                    data-image-tablet="images_cms/about/banner-profile-pic-02b.jpg"
+                                    data-image-mobile="images_cms/about/banner-profile-pic-02b.jpg" alt="">
                       </div>
                       <div class="text-container">
                         <h6>Teo Kee Meng</h6>

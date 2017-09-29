@@ -1,8 +1,26 @@
 #page-news-featured-section {
-  padding-top: 25px;
+  // padding-top: 25px;
+  padding-top: 25px + 50px;
   padding-bottom: 50px;
   @media all and (max-width: 991px) {
-    padding-top: 0px;
+    // padding-top: 0px;
+    padding-top: 50px;
+  }
+}
+
+
+#page-news-featured-carousel-container{
+  padding-left: 11%;
+}
+
+
+
+
+
+#page-news-featured-carousel{
+  &.transmedic-slick-slider .slick-dots{
+    text-align: left;
+    padding: 0px 30px 00px 30px;
   }
 }
 
@@ -15,7 +33,8 @@
 
 .page-news-featured-carousel-item {
   background: @white;
-  padding: 50px 30px 80px 30px;  
+  // padding: 50px 30px 80px 30px;
+  padding: 0px 30px 80px 30px;
   outline: 0px;
   
 
@@ -42,7 +61,7 @@
   }  
   
   .right-carousel-column {
-    padding-left: 11%;   
+    padding-left: 11%;                  // not used anymore.
   }
 
   .manic-image-container {

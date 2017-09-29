@@ -202,95 +202,128 @@
                 </ul>
               </div> <!-- page-article-social-media-container -->
 
+
+
+              <article id="page-article-contact-info-section">
+                <div id="contact-info-bg-container">
+                  <p>For more information on robotic surgery, please contact:</p>
+                  <h5>St. Luke’s Minimally Invasive and Robotic Surgery Center</h5>
+
+                  <div class="phone-no">
+                    <p class="label">Phone: <p>
+                    <p>(632) 7230101/0301 ext. 4192 <br class="visible-xs visible-sm"> (Quezon City) <br>
+                    (632) 7897700 ext. 2116 <br class="visible-xs visible-sm"> (Global City)</p>
+                  </div>
+
+                  <div class="email-address">
+                    <p class="label">Email: </p>
+                    <p><a href="mailto:mirsc@stluke.com.ph">mirsc@stluke.com.ph</a><br>
+                    <a href="mailto:mirsc.gc@stluke.com.ph">mirsc.gc@stluke.com.ph</a></p>
+                  </div>
+                </div>
+              </article>
+
+
+
+
+
+
+
             </div>
             <div class="col-md-1"></div>
             <div class="col-md-3">
 
-              <div id="page-article-sidebar-container">
+              <div id="page-article-sidebar-fixed-container">
+                <div id="page-article-sidebar-container">
 
-                <div id="sidebar-title" class="default-copy">
-                  <h5>You may also like</h5>                                    
-                </div> <!-- you may also like -->
-                
-                <div id="sidebar-title-image">
-                  <div class="manic-image-container">
-                    <img src="images_cms/article/article-sidebar-img.jpg" alt="">
-                  </div>
-                </div> <!-- sidebar-title-image -->
-                
-                <div id="page-default-news-item-container" class="article-page-version">
-                  <div class="page-default-news-item">
-                    <div class="item-column">
-                      <div class="item-title">
-                        <div class="row">
-                          <div class="col-xs-7">
-                            <h4>latest products</h4>
+                  <div id="sidebar-title" class="default-copy">
+                    <h5>You may also like</h5>                                    
+                  </div> <!-- you may also like -->
+                  
+                  <div id="sidebar-title-image">
+                    <div class="manic-image-container">
+                      <img src="images_cms/article/article-sidebar-img.jpg" alt="">
+                    </div>
+                  </div> <!-- sidebar-title-image -->
+                  
+                  <div id="page-default-news-item-container" class="article-page-version">
+                    <div class="page-default-news-item">
+                      <div class="item-column">
+                        <div class="item-title">
+                          <div class="row">
+                            <div class="col-xs-7">
+                              <h4>latest products</h4>
+                            </div>
+                            <div class="col-xs-5">
+                              <h4 class="item-date">27 Nov 2016</h4>
+                            </div>
                           </div>
-                          <div class="col-xs-5">
-                            <h4 class="item-date">27 Nov 2016</h4>
-                          </div>
-                        </div>
-                        <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">One of our latest products is the 4th generation da Vinci Xi surgical system</a></h5>
-                      </div>      
-                    </div>                
-                  </div> <!-- page-default-news-item -->
+                          <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">One of our latest products is the 4th generation da Vinci Xi surgical system</a></h5>
+                        </div>      
+                      </div>                
+                    </div> <!-- page-default-news-item -->
 
-                  <div class="page-default-news-item">
-                    <div class="item-column">
-                      <div class="item-title">
-                        <div class="row">
-                          <div class="col-xs-7">
-                            <h4>success stories</h4>
+                    <div class="page-default-news-item">
+                      <div class="item-column">
+                        <div class="item-title">
+                          <div class="row">
+                            <div class="col-xs-7">
+                              <h4>success stories</h4>
+                            </div>
+                            <div class="col-xs-5">
+                              <h4 class="item-date">23 Oct 2016</h4>
+                            </div>
                           </div>
-                          <div class="col-xs-5">
-                            <h4 class="item-date">23 Oct 2016</h4>
-                          </div>
-                        </div>
-                        <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">St. Luke’s-Global City performs first robotic lung resection in PH</a></h5>
-                      </div>      
-                    </div>                
-                  </div> <!-- page-default-news-item -->
+                          <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">St. Luke’s-Global City performs first robotic lung resection in PH</a></h5>
+                        </div>      
+                      </div>                
+                    </div> <!-- page-default-news-item -->
 
-                  <div class="page-default-news-item">
-                    <div class="item-column">
-                      <div class="item-title">
-                        <div class="row">
-                          <div class="col-xs-7">
-                            <h4>latest products</h4>
+                    <div class="page-default-news-item">
+                      <div class="item-column">
+                        <div class="item-title">
+                          <div class="row">
+                            <div class="col-xs-7">
+                              <h4>latest products</h4>
+                            </div>
+                            <div class="col-xs-5">
+                              <h4 class="item-date">18 Sep 2016</h4>
+                            </div>
                           </div>
-                          <div class="col-xs-5">
-                            <h4 class="item-date">18 Sep 2016</h4>
-                          </div>
-                        </div>
-                        <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">Introducing the First Integrated 3D Prostate Cartographer – TRINITY®</a></h5>
-                      </div>      
-                    </div>                
-                  </div> <!-- page-default-news-item -->
+                          <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">Introducing the First Integrated 3D Prostate Cartographer – TRINITY®</a></h5>
+                        </div>      
+                      </div>                
+                    </div> <!-- page-default-news-item -->
 
-                  <div class="page-default-news-item">
-                    <div class="item-column">
-                      <div class="item-title">
-                        <div class="row">
-                          <div class="col-xs-8">
-                            <h4>success stories</h4>
+                    <div class="page-default-news-item">
+                      <div class="item-column">
+                        <div class="item-title">
+                          <div class="row">
+                            <div class="col-xs-8">
+                              <h4>success stories</h4>
+                            </div>
+                            <div class="col-xs-4">
+                              <h4 class="item-date">28 Aug 2016</h4>
+                            </div>
                           </div>
-                          <div class="col-xs-4">
-                            <h4 class="item-date">28 Aug 2016</h4>
-                          </div>
-                        </div>
-                        <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">HeartMate 3 successfully implanted in first Singapore patient</a></h5>
-                      </div>      
-                    </div>                
-                  </div> <!-- page-default-news-item -->
-                </div> <!-- page-default-news-item-container -->
+                          <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">HeartMate 3 successfully implanted in first Singapore patient</a></h5>
+                        </div>      
+                      </div>                
+                    </div> <!-- page-default-news-item -->
+                  </div> <!-- page-default-news-item-container -->
 
-              </div> <!-- page-article-sidebar-container -->
+                </div> <!-- page-article-sidebar-container -->
+              </div> <!-- page-article-sidebar-fixed-container -->
+
+
 
             </div>
           </div>
         </div>
       </article> <!-- page-article-section -->
 
+
+      <!-- 
       <article id="page-article-contact-info-section">
         <div class="container-fluid has-breakpoint">
           <div class="row">
@@ -312,9 +345,10 @@
                 </div>
               </div>
             </div>
-          </div> <!-- row -->        
+          </div>
         </div>
-      </article> <!-- page-article-contact-info-section -->
+      </article>
+      -->
       
 
     </div> <!-- #page-wrapper-content -->
