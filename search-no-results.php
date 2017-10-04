@@ -26,7 +26,7 @@
 
 
       <div class="header-desktop-spacer"></div>
-      <div class="header-mobile-spacer hidden-lg"></div>
+      <div class="header-mobile-spacer"></div>
       
       
 

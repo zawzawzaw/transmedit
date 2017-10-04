@@ -1,16 +1,53 @@
 #page-news-featured-section {
+
+  background: @light-pink-2;
+
   // padding-top: 25px;
-  padding-top: 25px + 50px;
-  padding-bottom: 50px;
+  // padding-top: 25px + 50px;
+  // padding-bottom: 50px;
+
+  padding-top: 25px;
+
   @media all and (max-width: 991px) {
     // padding-top: 0px;
-    padding-top: 50px;
+    background: @white;
   }
+}
+
+
+#page-news-featured-section-content{
+  background: @white;
+  // background: #ff0000;
+
+  // padding-top: 50px;
+  padding-top: 30px;
+  // padding-bottom: 50px;
+  padding-bottom: 0px;
+
+
+
+  @media all and (max-width: 991px) {
+    background: transparent;
+
+    // padding-top: 50px;
+    padding-top: 0px;
+    padding-bottom: 26px;
+
+    .cta-container{
+      padding-top: 15px;
+    }
+
+  }
+
 }
 
 
 #page-news-featured-carousel-container{
   padding-left: 11%;
+
+  @media all and (max-width: 991px) {
+    padding-left: 0;
+  }
 }
 
 
@@ -21,6 +58,19 @@
   &.transmedic-slick-slider .slick-dots{
     text-align: left;
     padding: 0px 30px 00px 30px;
+
+    bottom: 18px;
+
+    @media all and (max-width: 991px) {
+      padding-left: 20px;
+      padding-right: 20px;
+      text-align: right;
+    }
+    @media only screen and (max-width: 767px) {
+
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
 }
 
@@ -31,15 +81,28 @@
   }
 }
 
+.carousel-caption-container{
+  padding-top: 20px;
+  padding-left: 30px;
+
+  @media all and (max-width: 991px) {
+    padding-top: 0px;
+    padding-left: 0px;
+
+  }
+}
+
 .page-news-featured-carousel-item {
   background: @white;
   // padding: 50px 30px 80px 30px;
-  padding: 0px 30px 80px 30px;
+  /// padding: 0px 30px 80px 30px;
+  padding: 0px 30px 105px 30px;
   outline: 0px;
   
 
   .carousel-caption-container {
-    padding-top: 15px;    
+    padding-top: 15px;
+    
 
     p {
       padding-bottom: 20px;
@@ -65,7 +128,12 @@
   }
 
   .manic-image-container {
-    height: 350px;    
+    // height: 350px;
+    height: 350px + 25px;
+  }
+  .default-image-desc{
+    display: block;
+    padding-top: 15px;
   }
 
   @media all and (max-width: 1280px) {
@@ -75,7 +143,9 @@
   }
 
   @media all and (max-width: 991px) {
+    // padding: 30px 20px 45px;
     padding: 30px 20px 45px;
+    padding-bottom: 6px;
 
     .manic-image-container {
       height: 350px;    
@@ -159,10 +229,16 @@
 
 #page-default-news-item-container {
 
+
   &.news-page-version {
     padding: 0 30px;
     margin-top: 45px;
     margin-bottom: 30px;
+
+    @media all and (max-width: 991px) {    
+      margin-top: 34px;
+      margin-bottom: 10px;
+    }
 
     .item-column {
       padding-left: 0px;
@@ -182,7 +258,7 @@
         width: 100%;
       }
       .item-title {
-        h5 {          
+        h5 {
           a {
             // font-size: 21px;  
             // line-height: 30px;
@@ -201,21 +277,30 @@
   @media all and (max-width: 991px) {
     &.news-page-version {
       padding: 0;
-
+      
       .item-title {
-        margin-bottom: 25px;
+        // margin-bottom: 25px;
+        margin-bottom: 0px;
       }
 
       .item-column {
-        min-height: 120px;
+        // min-height: 120px;
+        min-height: 0px;
+
         margin-left: 0px;
         margin-right: 0px;
+
+        // margin-bottom: 10px;
+
         &:after {
           display: none;
         }
       }
 
       .page-default-news-item {
+        padding-bottom: 26px;
+        margin-bottom: 26px;
+
         &:after {
           margin-bottom: 0px;
         }
@@ -228,6 +313,17 @@
 #page-news-load-more-cta-container {
   text-align: center;
   padding-bottom: 100px;
+
+  @media all and (max-width: 991px) {
+    padding-bottom: 30px;
+  }
+}
+
+
+
+#page-news-filter-list-pin-container-mobile{
+  position: relative;
+  z-index: 2000;
 }
 
 
@@ -268,8 +364,11 @@
         height: 100%;
       }
       .goog-menu-button {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        // padding-top: 10px;
+        // padding-bottom: 10px;
+
+        padding-top: 13px;
+        padding-bottom: 13px;
       }
       
       .goog-menu-vertical {
@@ -296,8 +395,11 @@
       }
 
       .goog-menu-button-dropdown {
-        top: 11px;
-        right: 10px;
+        // top: 11px;
+        // right: 10px;
+
+        top: 14px;
+        right: 18px;
       }
     }
 

@@ -13,7 +13,7 @@
 -->
 
 
-<header id="header-desktop" class="visible-lg hidden-md hidden-sm hidden-xs">
+<header id="header-desktop">
   <div class="white-bg"></div>
 
   <div id="header-desktop-content-container">

@@ -2,10 +2,13 @@
   #page-default-banner-section {
     &.careers-version {
       background: @white;
+
       #page-default-banner-copy-container {
         display: block;
         position: static;
-        padding-bottom: @section-padding-mobile + 5;
+        // padding-bottom: @section-padding-mobile + 5;
+        padding-top: 30px;
+        padding-bottom: 47px;
       }
     }
   }
@@ -31,14 +34,21 @@
 
   @media all and (max-width: 991px) {
     &.subtitle-version {
-      padding-top: @section-padding-mobile - 10;
+
+      // padding-top: @section-padding-mobile - 10;
+      padding-top: 0;
+
+
       h2 {
+        .h2-style-mobile;
         padding-left: 0px;
-        padding-bottom: @section-content-padding-mobile;
+        // padding-bottom: @section-content-padding-mobile;
+        padding-bottom: 18px;
       }
       h5 {
-        font-size: 18px;
-        line-height: 26px;
+        .body-font-mobile;
+        // font-size: 18px;
+        // line-height: 26px;
         padding-left: 0px;
       }
     }
@@ -116,10 +126,32 @@
   }
 
   @media all and (max-width: 991px) {
-    padding: 40px 0px;
+    // padding: 40px 0px;
+    
+    padding-left: 0px;
+    padding-right: 0px;
 
-    h3 {
-      padding-bottom: @section-content-padding-mobile;
+    padding-top: 48px;
+    padding-bottom: 0px;
+
+
+    // h3 {
+    //   padding-bottom: @section-content-padding-mobile;
+    // }
+    .text-container {
+      h3 {
+        padding-bottom: 0px;
+      }
+      p {
+        padding-bottom: 0px;
+      }
+
+      h3 + p {
+        padding-top: 9px;
+      }
+      p + p {
+        padding-top: 20px;
+      }
     }
 
     .align-col {
@@ -128,8 +160,11 @@
     }
 
     .quote-container {
-      margin-top: @section-padding-mobile + 5;
-      margin-bottom: @section-padding-mobile + 5;
+      // margin-top: @section-padding-mobile + 5;
+      // margin-bottom: @section-padding-mobile + 5;
+
+      margin-top: @section-padding-mobile + 5 + 12;
+      margin-bottom: @section-padding-mobile + 5 + 12;
 
       &.last-version {
         &:after {
@@ -142,38 +177,57 @@
         border-top: 1px solid @border-grey;
         width: 100%;
         display: block;
-        padding-top: @section-padding-mobile + 10;
+        padding-top: @section-padding-mobile + 10 + 6;
       }
       &:after {
         content: "";
         border-bottom: 1px solid @border-grey;
         width: 100%;
         display: block;
-        padding-top: @section-padding-mobile + 10;
+        padding-top: @section-padding-mobile + 10 + 6;
       }
     }
 
     span {
       &.quote {
         min-width: 100%;
-        font-size: 16px;
-        line-height: 24px;
-        padding-bottom: 15px;
+
+        .h2-style-mobile;
+
+        // font-size: 16px;
+        // line-height: 24px;
+        /// padding-bottom: 15px;
+        padding-bottom: 15px + 4px;
       }
       &.author {
         min-width: 100%;
-        font-size: 14px;
-        line-height: 20px;
+        // .body-font-mobile;
+        .h3-style-mobile;
+
+
+        // font-size: 14px;
+        // line-height: 20px;
         letter-spacing: 0.05em;
-        padding-bottom: @section-content-padding-mobile + 5;
-        color: @light-grey-2;
+        // padding-bottom: @section-content-padding-mobile + 5;
+        padding-bottom: 0;
+        // color: @light-grey-2;
+        
+
+        color: @dark-blue;
+      }
+      &.author-position{
+        .body-font-mobile;
+
       }
     }
 
     .cta-container {
-      text-align: center;
+      // text-align: center;
+      text-align: left;
       width: 100%;
       min-width: 100%;
+
+      padding-top: 15px;
     }
   }
 
@@ -224,16 +278,28 @@
     padding-left: 20px;
   }
   @media all and (max-width: 991px) {
-    padding-top: @section-padding-mobile;
-    padding-bottom: @section-padding-mobile + 10;
+
+    padding-top: @section-padding-mobile - 4px;
+    padding-bottom: @section-padding-mobile - 5px;
+
+
     h2 {
+
+      .h3-style-mobile;
+
       width: 100%;
-      padding-bottom: @section-content-padding-mobile;
+      min-width: 0px;
+      // padding-bottom: @section-content-padding-mobile;
+      padding-bottom: 9px;
     }
 
     h4 {
-      font-size: 18px;
-      line-height: 26px;
+      .h4-style-mobile;
+      // font-size: 18px;
+      // line-height: 26px;
+    }
+    p{
+      padding-left: 0;
     }
   }
 }
@@ -272,13 +338,26 @@
   }
 }
 
+
+
+
+#page-careers-job-filters-pin-container-mobile{
+  position: relative;
+  z-index: 2000;
+}
+
+
+
 #page-careers-job-filters-container-mobile {
   background: @cyan;
   text-align: center;
   text-transform: uppercase;
   color: @white;
-  margin-left: -20px;
-  margin-right: -20px;
+
+  
+
+  //margin-left: -20px;
+  //margin-right: -20px;
   margin-bottom: 20px;
 
   .source-sans-pro-semibold;
@@ -295,8 +374,11 @@
       height: 100%;
     }
     .goog-menu-button {
-      padding-top: 15px;
-      padding-bottom: 15px;
+      // padding-top: 15px;
+      // padding-bottom: 15px;
+
+      padding-top: 13px;
+      padding-bottom: 13px;
     }
     
     .goog-menu-vertical {
@@ -323,7 +405,8 @@
     }
 
     .goog-menu-button-dropdown {
-      top: 16px;
+      // top: 16px;
+      top: 14px;
       right: 18px;
     }
   }
@@ -338,6 +421,11 @@
     display: block;
 
   }
+
+  @media all and (max-width: 991px) {
+    padding-bottom: 27px;
+  }
+
 }
 
 .job-list-item-container {
@@ -363,12 +451,27 @@
   .job-list-item-title {
     .job-list-item-job-title-container {
       h6 {
+
         &.active {
           color: @dark-blue;
         }
       }
     }
+    @media all and (max-width: 991px) {
+
+      padding-top: 7px + 10px;
+      padding-bottom: 10px + 5px;
+
+      .job-list-item-job-title-container {
+        h6 {
+          .h3-style-mobile;
+
+        }
+      }
+    }
   }
+
+
   .job-list-item-view-detail-cta-container {    
     a.view-details-cta {
       .clanot-medium;
@@ -396,6 +499,15 @@
     }
     @media all and (max-width: 991px) {
       text-align: right;
+
+      a.view-details-cta {
+        .body-font-mobile;
+        // font-size: 12px;
+        font-size: 11px;
+        line-height: 22px;
+
+        margin-top: 0;
+      }
     }
 
   }
@@ -453,24 +565,37 @@
     }
 
     @media all and (max-width: 991px) {
-      padding-top: @section-content-padding-mobile;
-      padding-bottom: @section-content-padding-mobile;
+      // padding-top: @section-content-padding-mobile;
+      // padding-bottom: @section-content-padding-mobile;
+      padding-top: 8px;
+      padding-bottom: 39px;
 
       h4.job-title {
-        padding-bottom: @section-content-padding-mobile;
+        padding-bottom: @section-content-padding-mobile - 2px;
       }
 
       ul {
         padding-bottom: @section-padding-mobile;
         li {
           padding-bottom: 10px;
+          padding-left: 8px;
+          &:before{
+            left: -2px;
+          }
           h4 {
-            font-size: 15px;
-            line-height: 20px;
-            letter-spacing: 0.01em;
+            // font-size: 15px;
+            // line-height: 20px;
+            // letter-spacing: 0.01em;
+            
+            // .h4-style-mobile;
+            // .body-font-bold-mobile;
+            .body-font-bold-mobile-02;
+            
           }
         }
       }
     }
   }
 }
+
+

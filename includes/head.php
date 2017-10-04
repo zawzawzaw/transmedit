@@ -1,7 +1,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <link rel="shortcut icon" href="transmedic_assets/images/icons/favicon.ico" type="image/x-icon" />
+  
+  <!-- <link rel="shortcut icon" href="transmedic_assets/images/icons/favicon.ico" type="image/x-icon" /> -->
+
+  <link rel="shortcut icon" href="transmedic_assets/images/icons/favicon-v3.ico" type="image/x-icon" />
+  <!-- <link rel="shortcut icon" href="transmedic_assets/images/icons/favicon-v4.ico" type="image/x-icon" /> -->
 
   <title>Transmedic</title>
   <meta name="description" content="Leading medical equipment specialists in Southeast Asia.">

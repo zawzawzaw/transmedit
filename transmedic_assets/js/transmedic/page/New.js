@@ -268,6 +268,54 @@ transmedic.page.New.EVENT_01 = '';
 transmedic.page.New.EVENT_02 = '';
 
 
+
+//    ___ _   _ ___ _____
+//   |_ _| \ | |_ _|_   _|
+//    | ||  \| || |  | |
+//    | || |\  || |  | |
+//   |___|_| \_|___| |_|
+//
+
+
+/**
+ * @override
+ * @inheritDoc
+ */
+transmedic.page.New.prototype.init = function() {
+  transmedic.page.New.superClass_.init.call(this);
+
+  this.create_pinned_mobile_scene();
+
+};
+
+transmedic.page.New.prototype.create_pinned_mobile_scene = function(){
+
+  
+  
+
+  if ($('#page-news-filter-list-pin-container-mobile').length != 0) {
+
+    if (manic.IS_ACTUAL_MOBILE == true) {
+
+      this.sidebar_pinned_scene = new ScrollMagic.Scene({
+        'triggerHook': 0.0,
+        'offset': -56,                 // height of the mobile header
+        'triggerElement': "#page-news-filter-list-pin-target-mobile"
+      });
+      
+      this.sidebar_pinned_scene.setPin('#page-news-filter-list-pin-container-mobile');
+
+      // this.sidebar_pinned_scene.addIndicators();
+      this.sidebar_pinned_scene.addTo(this.controller);
+      
+    }
+
+
+  }
+
+};
+
+
 //    ____  ____  _____     ___  _____ _____
 //   |  _ \|  _ \|_ _\ \   / / \|_   _| ____|
 //   | |_) | |_) || | \ \ / / _ \ | | |  _|

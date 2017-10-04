@@ -26,6 +26,8 @@
 
 
       <div class="header-desktop-spacer"></div>
+      <div class="header-mobile-spacer"></div>
+      
       
       <article id="page-products-brands-section">
         <div class="container-fluid has-breakpoint">
@@ -35,7 +37,7 @@
 
               <div id="page-products-brands-title">
                 <h2>Our Brands</h2>
-                <p><b>As the leading provider of advanced medical technologies, we have a large selection of brands that cater to various needs. Click through to the brand websites and contact our specific teams for any enquiries.</b></p>
+                <p>As the leading provider of advanced medical technologies, we have a large selection of brands that cater to various needs. Click through to the brand websites and contact our specific teams for any enquiries.</p>
               </div> <!-- page-home-whatwedo-title -->
 
             </div>
@@ -146,7 +148,12 @@
                     <ul class="item-icons-list align-middle">
                       <li><div class="turnkey-icon-1 item-icon"></div></li>
                       <li><div class="turnkey-icon-2 item-icon"></div></li>
+
+                      <li><div class="turnkey-icon-4 item-icon"></div></li>
+                      <li><div class="turnkey-icon-5 item-icon"></div></li>
+                      <!-- 
                       <li><div class="turnkey-icon-3 item-icon"></div></li>
+                      -->
                     </ul>
 
                     <div class="item-copy">

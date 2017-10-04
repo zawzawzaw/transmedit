@@ -26,6 +26,7 @@
 
 
       <div class="header-desktop-spacer"></div>
+      <div class="header-mobile-spacer"></div>
 
       <article id="page-default-banner-section" class="careers-version">
         <div id="page-default-banner-image" class="short-version">
@@ -110,8 +111,8 @@
               <div class="manic-image-container">
                 <img src="" 
                   data-image-desktop="images_cms/careers/careers-section-01.jpg"
-                  data-image-tablet="images_cms/careers/careers-section-01.jpg"
-                  data-image-mobile="images_cms/careers/careers-section-01-mobile.jpg" alt="">
+                  data-image-tablet="images_cms/careers/careers-tablet.jpg"
+                  data-image-mobile="images_cms/careers/careers-mobile.jpg" alt="">
               </div>
 
               <div id="page-careers-extra-image-caption">
@@ -136,35 +137,54 @@
             <div class="col-md-12">
               <div id="page-careers-job-position-title" class="hidden-xs hidden-sm">
                 <h2>Current Positions</h2>
+
+                <div id="page-careers-job-filters-pin-trigger"></div>
               </div>
 
               <div class="row">
                 <div class="col-md-2">
-                  <div id="page-careers-job-filters-container" class="hidden-xs hidden-sm">
-                    <ul>
-                      <li><h4><a href="#singapore" class="active-tab">Singapore <span class="job-count">(6)</span></a><h4></li>
-                      <li><h4><a href="#malaysia">Malaysia <span class="job-count">(2)</span></a></h4></li>
-                      <li><h4><a href="#indonesia">Indonesia <span class="job-count">(4)</span></a></h4></li>
-                      <li><h4><a href="#hongkong">Hong Kong <span class="job-count">(1)</span></a></h4></li>
-                      <li><h4><a href="#thailand">Thailand <span class="job-count">(2)</span></a></h4></li>
-                      <li><h4><a href="#vietnam">Vietnam <span class="job-count">(1)</span></a></h4></li>
-                      <li><h4><a href="#philippines">Philippines <span class="job-count">(4)</span></a></h4></li>
-                    </ul>
-                  </div>
-                  <div id="page-careers-job-filters-container-mobile" class="visible-xs visible-sm">
-                    <div class="manic-dropdown">
-                      <select name="location_filter" id="location_filter">
-                        <option value="">Singapore <span class="job-count">(6)</span></option>
-                        <option value="#singapore">Singapore <span class="job-count">(6)</span></option>
-                        <option value="#malaysia">Malaysia <span class="job-count">(2)</span></option>
-                        <option value="#indonesia">Indonesia <span class="job-count">(4)</span></option>
-                        <option value="#hongkong">Hong Kong <span class="job-count">(1)</span></option>
-                        <option value="#thailand">Thailand <span class="job-count">(2)</span></option>
-                        <option value="#vietnam">Vietnam <span class="job-count">(1)</span></option>
-                        <option value="#philippines">Philippines <span class="job-count">(4)</span></option>
-                      </select>
+
+                  
+                  
+                  <div id="page-careers-job-filters-pin-container">
+                    <div id="page-careers-job-filters-container" class="hidden-xs hidden-sm">
+                      <ul>
+                        <li><h4><a href="#singapore" class="active-tab">Singapore <span class="job-count">(6)</span></a><h4></li>
+                        <li><h4><a href="#malaysia">Malaysia <span class="job-count">(2)</span></a></h4></li>
+                        <li><h4><a href="#indonesia">Indonesia <span class="job-count">(4)</span></a></h4></li>
+                        <li><h4><a href="#hongkong">Hong Kong <span class="job-count">(1)</span></a></h4></li>
+                        <li><h4><a href="#thailand">Thailand <span class="job-count">(2)</span></a></h4></li>
+                        <li><h4><a href="#vietnam">Vietnam <span class="job-count">(1)</span></a></h4></li>
+                        <li><h4><a href="#philippines">Philippines <span class="job-count">(4)</span></a></h4></li>
+                      </ul>
                     </div>
-                  </div>
+                  </div> <!-- page-careers-job-filters-pin-container -->
+                  
+
+                  <!-- these are the mobile filters -->
+
+                  <div id="page-careers-job-filters-pin-trigger-mobile"></div>
+
+                  <div id="page-careers-job-filters-pin-container-mobile">
+                    <div class="sans-container-fluid-tablet-no-padding">
+                      <div id="page-careers-job-filters-container-mobile" class="visible-xs visible-sm">
+                        <div class="manic-dropdown">
+                          <select name="location_filter" id="location_filter">
+                            <option value="">Singapore <span class="job-count">(6)</span></option>
+                            <option value="#singapore">Singapore <span class="job-count">(6)</span></option>
+                            <option value="#malaysia">Malaysia <span class="job-count">(2)</span></option>
+                            <option value="#indonesia">Indonesia <span class="job-count">(4)</span></option>
+                            <option value="#hongkong">Hong Kong <span class="job-count">(1)</span></option>
+                            <option value="#thailand">Thailand <span class="job-count">(2)</span></option>
+                            <option value="#vietnam">Vietnam <span class="job-count">(1)</span></option>
+                            <option value="#philippines">Philippines <span class="job-count">(4)</span></option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div> <!-- page-careers-job-filters-pin-container-mobile -->
+
+
                 </div>
                 <div class="col-md-10">
                   <div class="seperator-line"></div>

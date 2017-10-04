@@ -12,7 +12,7 @@
 -->
 
 
-<header id="header-mobile" class="visible-md visible-sm visible-xs">
+<header id="header-mobile">
   <div class="white-bg"></div>
 
   <div id="header-mobile-content-container">
@@ -33,6 +33,33 @@
 </header> <!-- header-mobile -->
 
 <div id="header-mobile-expand">
-  
+
+  <div class="header-mobile-spacer"></div>
+
+  <div id="header-search-mobile">
+    <form id="header-search-mobile-form" action="search.php" method="GET">
+      <input type="text" name="search-param">
+      <input type="submit" value="">
+    </form>
+  </div>
+      
+  <div class="container-fluid">
+    <div class="col-sm-10 col-sm-push-1 col-xs-12 col-xs-push-0">
+
+      <div id="header-menu-mobile">
+        <nav>
+          <ul>
+            <li><a href="about.php" data-page="page-about">About Us</a></li>
+            <li><a href="products.php" data-page="page-products">Products</a></li>
+            <li><a href="news.php" data-page="page-news">News</a></li>
+            <li><a href="careers.php" data-page="page-careers">Careers</a></li>
+            <li><a href="contact.php" data-page="page-contact">Contact</a></li>
+            <li><a href="contact.php" class="custom-highlight" data-page="page-contact">Staff login</a></li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+  </div>
 
 </div> <!-- header-mobile-expand -->

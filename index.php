@@ -28,6 +28,7 @@
 
 
       <div class="header-desktop-spacer"></div>
+      <div class="header-mobile-spacer"></div>
 
 
       <!--
@@ -42,17 +43,23 @@
       <article id="page-default-banner-section">
         <div id="page-default-banner-image">
           <div class="manic-image-container" data-vertical-align="top">
+            <!-- 
             <img src="" data-image-desktop="images_cms/home/home-banner.jpg"
                         data-image-tablet="images_cms/home/home-banner-tablet.jpg"
                         data-image-mobile="images_cms/home/home-banner-mobile.jpg">
+            -->
+
+            <img src="" data-image-desktop="images_cms/home/home-banner-steffi.jpg"
+                        data-image-tablet="images_cms/home/home-banner-steffi-tablet.jpg"
+                        data-image-mobile="images_cms/home/home-banner-steffi-mobile.jpg">
+
           </div>
         </div>
 
         <div id="page-default-banner-copy-container">
           <div class="container-fluid has-breakpoint">
             <div class="row">
-              <div class="col-md-6">
-
+              <div class="col-md-6 col-md-push-0 col-sm-6 col-sm-push-1 col-xs-9 col-xs-push-0">
                 <div id="page-default-banner-copy">
                   <h1>Leading medical equipment specialists in Southeast Asia.</h1>
                 </div> <!-- page-default-banner-copy -->
@@ -113,8 +120,8 @@
                             <div class="manic-image-container">
                               <img src=""
                                 data-image-desktop="images_cms/home/home-whatwedo-01.jpg"
-                                data-image-tablet="images_cms/home/home-whatwedo-01.jpg"
-                                data-image-mobile="images_cms/home/home-whatwedo-01.jpg">
+                                data-image-tablet="images_cms/home/home-whatwedo-01-tablet.jpg"
+                                data-image-mobile="images_cms/home/home-whatwedo-01-mobile.jpg">
                             </div>
                           </a>
                           <div class="item-copy">
@@ -139,11 +146,11 @@
 
                         <div class="page-home-whatwedo-item hover-sync-item">
                           <a href="about.php#education" class="item-image hover-sync">
-                            <div class="manic-image-container">
+                            <div class="manic-image-container" data-vertical-align="top">
                               <img src=""
                                 data-image-desktop="images_cms/home/home-whatwedo-02.jpg"
-                                data-image-tablet="images_cms/home/home-whatwedo-02.jpg"
-                                data-image-mobile="images_cms/home/home-whatwedo-02.jpg">
+                                data-image-tablet="images_cms/home/home-whatwedo-02-tablet.jpg"
+                                data-image-mobile="images_cms/home/home-whatwedo-02-mobile.jpg">
                             </div>
                           </a>
                           <div class="item-copy">
@@ -168,11 +175,11 @@
 
                         <div class="page-home-whatwedo-item hover-sync-item">
                           <a href="about.php#support" class="item-image hover-sync">
-                            <div class="manic-image-container">
+                            <div class="manic-image-container" data-vertical-align="top">
                               <img src=""
-                                data-image-desktop="images_cms/home/home-whatwedo-03.jpg"
-                                data-image-tablet="images_cms/home/home-whatwedo-03.jpg"
-                                data-image-mobile="images_cms/home/home-whatwedo-03.jpg">
+                                data-image-desktop="images_cms/home/home-whatwedo-c-03.jpg"
+                                data-image-tablet="images_cms/home/home-whatwedo-c-03-tablet.jpg"
+                                data-image-mobile="images_cms/home/home-whatwedo-c-03-mobile.jpg">
                             </div>
                           </a>
                           <div class="item-copy">
@@ -229,8 +236,8 @@
                     <div class="col-md-8 v-align-col">
                       <div class="manic-image-container">
                         <img src="" data-image-desktop="images_cms/home/home-latest-01.jpg"
-                                    data-image-tablet="images_cms/home/home-latest-01.jpg"
-                                    data-image-mobile="images_cms/home/home-latest-01.jpg" alt="">
+                                    data-image-tablet="images_cms/home/home-latest-b-01-tablet.jpg"
+                                    data-image-mobile="images_cms/home/home-latest-b-01-mobile.jpg" alt="">
                       </div>
                     </div><!--
                     --><div class="col-md-4 v-align-col">
@@ -249,8 +256,8 @@
                     <div class="col-md-8 v-align-col">
                       <div class="manic-image-container">
                         <img src="" data-image-desktop="images_cms/home/home-latest-02.jpg"
-                                    data-image-tablet="images_cms/home/home-latest-02.jpg"
-                                    data-image-mobile="images_cms/home/home-latest-02.jpg" alt="">
+                                    data-image-tablet="images_cms/home/home-latest-b-02-tablet.jpg"
+                                    data-image-mobile="images_cms/home/home-latest-b-02-mobile.jpg" alt="">
                       </div>
                     </div><!--
                     --><div class="col-md-4 v-align-col">
@@ -269,8 +276,8 @@
                     <div class="col-md-8 v-align-col">
                       <div class="manic-image-container">
                         <img src="" data-image-desktop="images_cms/home/home-latest-03.jpg"
-                                    data-image-tablet="images_cms/home/home-latest-03.jpg"
-                                    data-image-mobile="images_cms/home/home-latest-03.jpg" alt="">
+                                    data-image-tablet="images_cms/home/home-latest-b-03-tablet.jpg"
+                                    data-image-mobile="images_cms/home/home-latest-b-03-mobile.jpg" alt="">
                       </div>
                     </div><!--
                     --><div class="col-md-4 v-align-col">
@@ -389,8 +396,8 @@
         <div id="page-home-map-copy-container">
           <div class="container-fluid has-breakpoint">
             <div class="row">
-              <div class="col-md-5"></div>
-              <div class="col-md-7">
+              <div class="col-md-5 col-sm-5"></div>
+              <div class="col-md-7 col-sm-6">
 
                 <div id="page-home-map-copy">
 
@@ -402,25 +409,27 @@
 
                     <div class="page-home-map-info-item" data-value="41">
                       <div class="item-bg"></div>
-                      <h4>Brand <br>Partners</h4>
+                      <h4>Brand<br>Partners</h4>
                       <div class="item-number-container"><span class="item-number odometer">00</span></div>
                     </div>
 
                     <div class="page-home-map-info-item" data-value="1538">
                       <div class="item-bg"></div>
-                      <h4>Equipment <br>Distributed</h4>
+                      <h4>Equipment<br>Distributed</h4>
                       <div class="item-number-container"><span class="item-number odometer">0000</span></div>
                     </div>
 
+                    <br class="visible-sm visible-xs">
+
                     <div class="page-home-map-info-item" data-value="79">
                       <div class="item-bg"></div>
-                      <h4>Companies <br>Benefitted</h4>
+                      <h4>Companies<br>Benefitted</h4>
                       <div class="item-number-container"><span class="item-number odometer">00</span></div>
                     </div>
 
                     <div class="page-home-map-info-item" data-value="7">
                       <div class="item-bg"></div>
-                      <h4>Our <br>Offices</h4>
+                      <h4>Our<br>Offices</h4>
                       <div class="item-number-container"><span class="item-number odometer">0</span></div>
                     </div>
 
@@ -502,14 +511,7 @@
 
                       <div class="page-default-news-item hover-sync-item">
                         <div class="item-title">
-                          <div class="row">
-                            <div class="col-xs-6">
-                              <h4>Featured</h4>
-                            </div>
-                            <div class="col-xs-6">
-                              <h4 class="item-date">27 Jul 2017</h4>
-                            </div>
-                          </div>
+                          <h4>Featured</h4>
                           <h5><a href="article.php" class="hover-sync">The Medical City (TMC) introduces Emprint™ Microwave Ablation (MWA)</a></h5>
                         </div>
                         <div class="item-copy">
@@ -536,14 +538,7 @@
 
                       <div class="page-default-news-item hover-sync-item">
                         <div class="item-title">
-                          <div class="row">
-                            <div class="col-xs-6">
-                              <h4>Success Stories</h4>
-                            </div>
-                            <div class="col-xs-6">
-                              <h4 class="item-date">18 Jun 2017</h4>
-                            </div>
-                          </div>
+                          <h4>Success Stories</h4>
                           <h5><a href="article.php" class="hover-sync">100 cases celebration with Mako Robotics: Dr. Jeffrey Chew</a></h5>
                         </div>
                         <div class="item-copy">
@@ -570,14 +565,7 @@
 
                       <div class="page-default-news-item hover-sync-item">
                         <div class="item-title">
-                          <div class="row">
-                            <div class="col-md-7 col-xs-6">
-                              <h4>Education & Events</h4>
-                            </div>
-                            <div class="col-md-5 col-xs-6">
-                              <h4 class="item-date">05 Jun 2017</h4>
-                            </div>
-                          </div>
+                          <h4>Education & Events</h4>
                           <h5><a href="article.php" class="hover-sync">Poctions 2016: Today’s actions for tomorrow’s patients</a></h5>
                         </div>
                         <div class="item-copy">

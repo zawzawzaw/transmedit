@@ -175,22 +175,48 @@
   line-height: 26px * @multiplier;
 }
 
+
+
 .body-font-mobile(@multiplier: 1){ // done
   .clanot-book;
-  font-size: 16px * @multiplier;
-  line-height: 24px * @multiplier;
+  // font-size: 16px * @multiplier;
+  // line-height: 24px * @multiplier;
+  
+  font-size: 14px * @multiplier;
+  line-height: 20px * @multiplier;
 }
 
 .body-font-bold-mobile(@multiplier: 1){
   .clanot-book;
-  font-size: 16px * @multiplier;
-  line-height: 24px * @multiplier;
+  // .clanot-medium;
+  // font-size: 16px * @multiplier;
+  // line-height: 24px * @multiplier;
+  // 
+  // 
+
+  font-size: 14px * @multiplier;
+  line-height: 20px * @multiplier;
+}
+
+.body-font-bold-mobile-02(@multiplier: 1){
+  // .clanot-book;
+  .clanot-medium;
+  // font-size: 16px * @multiplier;
+  // line-height: 24px * @multiplier;
+  // 
+  // 
+
+  font-size: 14px * @multiplier;
+  line-height: 20px * @multiplier;
 }
 
 .body-font-italic-mobile(@multiplier: 1){
   .clanot-book;
-  font-size: 16px * @multiplier;
-  line-height: 24px * @multiplier;
+  // font-size: 16px * @multiplier;
+  // line-height: 24px * @multiplier;
+
+  font-size: 14px * @multiplier;
+  line-height: 20px * @multiplier;
 }
 
 
@@ -207,6 +233,11 @@
 
 .h2-style(@multiplier: 1){
   .clanot-book;
+  font-size: 30px * @multiplier;
+  line-height: 40px * @multiplier;
+}
+.h2-style-bold(@multiplier: 1){
+  .clanot-medium;
   font-size: 30px * @multiplier;
   line-height: 40px * @multiplier;
 }
@@ -249,29 +280,43 @@
 
 .h1-style-mobile(@multiplier: 1){
   .clanot-book;
-  font-size: 22px * @multiplier;
-  line-height: 30px * @multiplier;
+  // font-size: 22px * @multiplier;
+  // line-height: 30px * @multiplier;
+  font-size: 18px * @multiplier;
+  line-height: 24px * @multiplier;
 }
 
 .h2-style-mobile(@multiplier: 1){ // done
   .clanot-book;
-  font-size: 22px * @multiplier;
-  line-height: 30px * @multiplier;
+  // font-size: 22px * @multiplier;
+  // line-height: 30px * @multiplier;
+  font-size: 18px * @multiplier;
+  line-height: 24px * @multiplier;
 }
 
 .h3-style-mobile(@multiplier: 1){ // done
   .clanot-medium;
-  font-size: 18px * @multiplier;
-  line-height: 26px * @multiplier;
+  // font-size: 18px * @multiplier;
+  // line-height: 26px * @multiplier;
+
+  font-size: 16px * @multiplier;
+  line-height: 22px * @multiplier;
 }
 
 .h4-style-mobile(@multiplier: 1){
   .clanot-medium;
-  font-size: 14px * @multiplier;
-  line-height: 14px * @multiplier;
+  //font-size: 14px * @multiplier;
+  //line-height: 14px * @multiplier;
+  //
+  //letter-spacing: 0.05em;
+  //text-transform: uppercase;
 
-  letter-spacing: 0.05em;
+  font-size: 12px * @multiplier;
+  line-height: 14px * @multiplier;
+  letter-spacing: 0.075em;
   text-transform: uppercase;
+
+  
 }
 
 .h5-style-mobile(@multiplier: 1){ // done
@@ -663,6 +708,10 @@ p{
     p + p{
       padding-top: 20px;
     }
+
+    h4 + h2{
+      padding-top: 3px;
+    }
   }
 
 
@@ -777,6 +826,12 @@ p{
 
   .cta-container{
     padding-top: 19px;
+
+    // TABLET PORTRAIT
+    @media only screen and (max-width: 991px) {
+      padding-top: 15px;
+    }
+
   }
 
   

@@ -27,7 +27,7 @@
 
 
       <div class="header-desktop-spacer"></div>
-      <div class="header-mobile-spacer hidden-lg"></div>
+      <div class="header-mobile-spacer"></div>
 
 
 
@@ -54,7 +54,7 @@
                   <div id="page-article-video-container">
                     <div id="page-article-video">
                       <div class="manic-image-container">
-                        <img src="" data-image-desktop="images_cms/careers/career-detail-fabian-banner.jpg">
+                        <img src="" data-image="images_cms/careers/career-detail-fabian-banner.jpg">
                       </div>
                     </div>
                     <div class="default-image-margin"></div>
@@ -74,7 +74,7 @@
 
 
 
-                <div class="scroll-target" data-value="jeanne"></div>
+                <div class="scroll-target page-article-scroll-target" data-value="jeanne" ></div>
 
                 <div class="page-article-career-item">
                   <div id="page-article-title-container">
@@ -87,7 +87,7 @@
                   <div id="page-article-video-container">
                     <div id="page-article-video">
                       <div class="manic-image-container">
-                        <img src="" data-image-desktop="images_cms/careers/career-detail-jeanne-banner.jpg">
+                        <img src="" data-image="images_cms/careers/career-detail-jeanne-banner.jpg">
                       </div>
                     </div>
                     <div class="default-image-margin"></div>
@@ -133,7 +133,7 @@
                         <div class="item-title">
                           <h4>life at transmedic</h4>
                           
-                          <h5><a href="javascript:void(0);" >Transmedic Singapore D&D 2016</a></h5>
+                          <h5><a href="article.php" >Transmedic Singapore D&D 2016</a></h5>
                         </div>      
                       </div>                
                     </div> <!-- page-default-news-item -->
@@ -143,7 +143,7 @@
                         <div class="item-title">
                           <h4>life at transmedic</h4>
                           
-                          <h5><a href="javascript:void(0);" >More Than Just A Job</a></h5>
+                          <h5><a href="article.php" >More Than Just A Job</a></h5>
                         </div>      
                       </div>                
                     </div> <!-- page-default-news-item -->
@@ -153,7 +153,7 @@
                         <div class="item-title">
                           <h4>life at transmedic</h4>
                           
-                          <h5><a href="javascript:void(0);" >Wine Tasting Session</a></h5>
+                          <h5><a href="article.php" >Wine Tasting Session</a></h5>
                         </div>      
                       </div>                
                     </div> <!-- page-default-news-item -->
@@ -163,7 +163,7 @@
                         <div class="item-title">
                           <h4>life at transmedic</h4>
                           
-                          <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">Transmedic Indonesia annual event 2015</a></h5>
+                          <h5><a href="article.php" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">Transmedic Indonesia annual event 2015</a></h5>
                         </div>      
                       </div>                
                     </div> <!-- page-default-news-item -->

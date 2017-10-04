@@ -26,7 +26,7 @@
 
 
       <div class="header-desktop-spacer"></div>
-      <div class="header-mobile-spacer hidden-lg"></div>
+      <div class="header-mobile-spacer"></div>
       
       <!-- 
           ____  ___    _   ___   ____________
@@ -39,7 +39,7 @@
 
       <article id="page-default-banner-section" class="about-version">
 
-        <div id="page-default-banner-copy-container">
+        <div id="page-default-banner-copy-container-about">
           <div class="container-fluid has-breakpoint">
             <div class="row">              
               
@@ -49,10 +49,16 @@
                     <h3>About Us</h3>
                     <p>Transmedic was founded in 1980 with the aim of becoming the top specialist in the advanced medical technologies arena in Southeast Asia. Headquartered in Singapore, we have since grown our presence in 7 countries and have a staff of 400 people.</p>
                   </div> <!-- page-home-banner-copy -->
+
+                  <hr class="visible-sm visible-xs">
+
                   <div id="page-default-banner-copy">
                     <h3>Our Leaders</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                   </div> <!-- page-home-banner-copy -->
+
+                  <hr class="visible-sm visible-xs">
+
                 </div>
               </div> <!-- col-md-3 -->
               <div class="col-md-1"></div>
@@ -64,10 +70,10 @@
 
                   <div id="page-default-banner-profile-images">
                     <div class="page-default-banner-profile-images-item">
-                      <div class="manic-image-container">
+                      <div class="manic-image-container" data-vertical-align="top">
                         <img src="" data-image-desktop="images_cms/about/banner-profile-pic-01.jpg"
-                                    data-image-tablet="images_cms/about/banner-profile-pic-01.jpg"
-                                    data-image-mobile="images_cms/about/banner-profile-pic-01.jpg" alt="">                        
+                                    data-image-tablet="images_cms/about/about-lee-tablet.jpg"
+                                    data-image-mobile="images_cms/about/about-lee-mobile.jpg" alt="">                        
                       </div>
                       <div class="text-container">
                         <h6>Lee Thian Soo</h6>
@@ -75,10 +81,10 @@
                       </div>
                     </div>
                     <div class="page-default-banner-profile-images-item">
-                      <div class="manic-image-container">
+                      <div class="manic-image-container" data-vertical-align="top">
                         <img src="" data-image-desktop="images_cms/about/banner-profile-pic-02b.jpg"
-                                    data-image-tablet="images_cms/about/banner-profile-pic-02b.jpg"
-                                    data-image-mobile="images_cms/about/banner-profile-pic-02b.jpg" alt="">
+                                    data-image-tablet="images_cms/about/about-teo-tablet.jpg"
+                                    data-image-mobile="images_cms/about/about-teo-mobile.jpg" alt="">
                       </div>
                       <div class="text-container">
                         <h6>Teo Kee Meng</h6>
@@ -86,10 +92,10 @@
                       </div>
                     </div>
                     <div class="page-default-banner-profile-images-item">
-                      <div class="manic-image-container">
+                      <div class="manic-image-container" data-vertical-align="top">
                         <img src="" data-image-desktop="images_cms/about/banner-profile-pic-03.jpg"
-                                    data-image-tablet="images_cms/about/banner-profile-pic-03.jpg"
-                                    data-image-mobile="images_cms/about/banner-profile-pic-03.jpg" alt="">
+                                    data-image-tablet="images_cms/about/about-seah-tablet.jpg"
+                                    data-image-mobile="images_cms/about/about-seah-mobile.jpg" alt="">
                       </div>
                       <div class="text-container">
                         <h6>Seah Kerk Chuan</h6>
@@ -134,8 +140,8 @@
                   <div class="img-col left-col">
                     <div class="manic-image-container">
                       <img data-image-desktop="images_cms/about/what-we-do-01.jpg" 
-                           data-image-tablet="images_cms/about/what-we-do-01.jpg" 
-                           data-image-mobile="images_cms/about/what-we-do-01.jpg" src="" alt="">
+                           data-image-tablet="images_cms/about/about-medical-tablet.jpg"
+                           data-image-mobile="images_cms/about/about-medical-mobile.jpg" src="" alt="">
                     </div>
                   </div> <!-- img-col -->
                 </div>
@@ -159,6 +165,15 @@
               <div class="row">
                 
                 <div class="col-md-6">
+
+                  <div class="img-col visible-sm visible-xs">
+                    <div class="manic-image-container">
+                      <img
+                      data-image-tablet="images_cms/about/about-training-tablet.jpg"
+                      data-image-mobile="images_cms/about/about-training-mobile.jpg" src="" alt="">
+                    </div>
+                  </div> <!-- img-col -->
+
                   <div class="txt-col left-col">
                     <h3>Education & Training</h3>
                     <p>We are deeply committed to education, and invest heavily in training for doctors, technology promotion and patient education. We also regularly sponsor and help to organise medical conferences, exhibitions, symposiums and workshops for healthcare professionals to exchange findings and build networks.</p>
@@ -169,11 +184,9 @@
                 
                 
                 <div class="col-md-6">
-                  <div class="img-col right-col">
+                  <div class="img-col right-col visible-md visible-lg">
                     <div class="manic-image-container">
-                      <img data-image-desktop="images_cms/about/what-we-do-02.jpg"
-                      data-image-tablet="images_cms/about/what-we-do-02.jpg"
-                      data-image-mobile="images_cms/about/what-we-do-02.jpg" src="" alt="">
+                      <img data-image-desktop="images_cms/about/what-we-do-02.jpg" src="" alt="">
                     </div>
                   </div> <!-- img-col -->
                 </div>
@@ -187,10 +200,10 @@
 
                 <div class="col-md-6">
                   <div class="img-col left-col">
-                    <div class="manic-image-container">
-                      <img data-image-desktop="images_cms/about/what-we-do-03.jpg"
-                      data-image-tablet="images_cms/about/what-we-do-03.jpg"
-                      data-image-mobile="images_cms/about/what-we-do-03.jpg" src="" alt="">
+                    <div class="manic-image-container" data-vertical-align="top">
+                      <img data-image-desktop="images_cms/about/post-sales-support.jpg"
+                      data-image-tablet="images_cms/about/post-sales-support-mobile.jpg"
+                      data-image-mobile="images_cms/about/post-sales-support-tablet.jpg" src="" alt="">
                     </div>
                   </div>  <!-- img-col -->
                 </div>

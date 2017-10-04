@@ -55,6 +55,29 @@ transmedic.page.Career.EVENT_01 = '';
 transmedic.page.Career.EVENT_02 = '';
 
 
+
+//    ___ _   _ ___ _____
+//   |_ _| \ | |_ _|_   _|
+//    | ||  \| || |  | |
+//    | || |\  || |  | |
+//   |___|_| \_|___| |_|
+//
+
+
+/**
+ * @override
+ * @inheritDoc
+ */
+transmedic.page.Career.prototype.init = function() {
+  transmedic.page.Career.superClass_.init.call(this);
+
+  this.create_pinned_scene();
+  this.create_pinned_mobile_scene();
+
+};
+
+
+
 //    ____  ____  _____     ___  _____ _____
 //   |  _ \|  _ \|_ _\ \   / / \|_   _| ____|
 //   | |_) | |_) || | \ \ / / _ \ | | |  _|
@@ -80,8 +103,59 @@ transmedic.page.Career.prototype.create_location_tab = function() {
   
   location_tab_item.click(this.on_location_tab_item_click.bind(this));
 };
-transmedic.page.Career.prototype.private_method_03 = function() {};
-transmedic.page.Career.prototype.private_method_04 = function() {};
+
+
+transmedic.page.Career.prototype.create_pinned_scene = function() {
+
+
+  if ($('#page-careers-job-filters-pin-container').length != 0) {
+
+    this.sidebar_pinned_scene = new ScrollMagic.Scene({
+      'triggerHook': 0.0,
+      'offset': -60,   // height of desktop header
+      'triggerElement': "#page-careers-job-filters-pin-trigger"
+    });
+    this.sidebar_pinned_scene.setPin('#page-careers-job-filters-pin-container');
+
+    // this.sidebar_pinned_scene.addIndicators();
+    this.sidebar_pinned_scene.addTo(this.controller);
+
+  }
+  
+
+
+};
+
+
+transmedic.page.Career.prototype.create_pinned_mobile_scene = function() {
+
+
+  if ($('#page-careers-job-filters-pin-container-mobile').length != 0) {
+
+    if (manic.IS_ACTUAL_MOBILE == true) {
+
+      this.sidebar_pinned_scene = new ScrollMagic.Scene({
+        'triggerHook': 0.0,
+        'offset': -56,                 // height of the mobile header
+        'triggerElement': "#page-careers-job-filters-pin-trigger-mobile"
+      });
+      
+      this.sidebar_pinned_scene.setPin('#page-careers-job-filters-pin-container-mobile');
+
+      // this.sidebar_pinned_scene.addIndicators();
+      this.sidebar_pinned_scene.addTo(this.controller);
+      
+    }
+
+
+  }
+
+  
+
+  
+  
+
+};
 transmedic.page.Career.prototype.private_method_05 = function() {};
 transmedic.page.Career.prototype.private_method_06 = function() {};
 

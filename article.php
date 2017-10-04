@@ -26,7 +26,7 @@
 
 
       <div class="header-desktop-spacer"></div>
-      <div class="header-mobile-spacer hidden-lg"></div>
+      <div class="header-mobile-spacer"></div>
       
       <article id="page-article-section">
         <div class="container-fluid has-breakpoint">
@@ -258,7 +258,7 @@
                               <h4 class="item-date">27 Nov 2016</h4>
                             </div>
                           </div>
-                          <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">One of our latest products is the 4th generation da Vinci Xi surgical system</a></h5>
+                          <h5><a href="article.php" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">One of our latest products is the 4th generation da Vinci Xi surgical system</a></h5>
                         </div>      
                       </div>                
                     </div> <!-- page-default-news-item -->
@@ -274,7 +274,7 @@
                               <h4 class="item-date">23 Oct 2016</h4>
                             </div>
                           </div>
-                          <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">St. Luke’s-Global City performs first robotic lung resection in PH</a></h5>
+                          <h5><a href="article.php" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">St. Luke’s-Global City performs first robotic lung resection in PH</a></h5>
                         </div>      
                       </div>                
                     </div> <!-- page-default-news-item -->
@@ -290,7 +290,7 @@
                               <h4 class="item-date">18 Sep 2016</h4>
                             </div>
                           </div>
-                          <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">Introducing the First Integrated 3D Prostate Cartographer – TRINITY®</a></h5>
+                          <h5><a href="article.php" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">Introducing the First Integrated 3D Prostate Cartographer – TRINITY®</a></h5>
                         </div>      
                       </div>                
                     </div> <!-- page-default-news-item -->
@@ -306,7 +306,7 @@
                               <h4 class="item-date">28 Aug 2016</h4>
                             </div>
                           </div>
-                          <h5><a href="javascript:void(0);" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">HeartMate 3 successfully implanted in first Singapore patient</a></h5>
+                          <h5><a href="article.php" class="hover-sync minimize-text" data-length="70" data-tablet-length="25" data-mobile-length="33">HeartMate 3 successfully implanted in first Singapore patient</a></h5>
                         </div>      
                       </div>                
                     </div> <!-- page-default-news-item -->

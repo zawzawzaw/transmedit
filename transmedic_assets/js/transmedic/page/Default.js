@@ -13,7 +13,7 @@ goog.require('manic.ui.Dropdown');
 
 
 goog.require('transmedic.component.HeaderDesktop');
-// goog.require('transmedic.component.HeaderMobile');
+goog.require('transmedic.component.HeaderMobile');
 
 goog.require('transmedic.component.HoverSync');
 
@@ -116,7 +116,8 @@ transmedic.page.Default.prototype.init = function() {
 
   this.create_dropdown();
   
-  // this.create_header_mobile();
+  this.create_header_mobile();
+
   // 
   // 
 
@@ -181,6 +182,7 @@ transmedic.page.Default.prototype.create_header_desktop = function(){
 };
 
 transmedic.page.Default.prototype.create_header_mobile = function(){
+
 
   if ($('#header-mobile').length != 0 && $('#header-mobile-expand').length != 0) {
 
@@ -329,8 +331,9 @@ transmedic.page.Default.prototype.update_page_layout = function(){
 
 
   if (this.is_page_min_height_mobile == true && manic.IS_MOBILE == true) {
-    var target_height = this.page_wrapper.height() - this.mobile_header_element.outerHeight();
-
+    // var target_height = this.page_wrapper.height() - this.mobile_header_element.outerHeight();
+    var target_height = this.window_height - this.mobile_header_element.outerHeight() - this.desktop_footer_element.outerHeight();
+    
     console.log(target_height);
 
     this.page_wrapper_content.css({
