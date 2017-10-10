@@ -49,9 +49,9 @@
                         data-image-mobile="images_cms/home/home-banner-mobile.jpg">
             -->
 
-            <img src="" data-image-desktop="images_cms/home/home-banner-steffi.jpg"
-                        data-image-tablet="images_cms/home/home-banner-steffi-tablet.jpg"
-                        data-image-mobile="images_cms/home/home-banner-steffi-mobile.jpg">
+            <img src="" data-image-desktop="images_cms/home/home-banner-machine.jpg"
+                        data-image-tablet="images_cms/home/home-banner-machine-tablet.jpg"
+                        data-image-mobile="images_cms/home/home-banner-machine-mobile.jpg">
 
           </div>
         </div>
