@@ -4,9 +4,8 @@
   <!-- INSERT FONTS HERE -->
 
   <!-- Google Font -->
-  <!-- Merriweather Bold -->
-  <!-- Source Sans Pro Light, Light Italic, Regular, Semibold -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:700|Source+Sans+Pro:300,300i,400,600,700" rel="stylesheet">
+  <!-- Source Sans Pro Light, Regular, Semibold -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
 
 
   <?php $is_debug = true; ?>
@@ -74,7 +73,13 @@
 
     -->
 
+    <!-- 
     <script type="text/javascript" src="transmedic_assets/js/minified/head.load.min.js"></script>
+    -->
+    <script type="text/javascript">
+      <?php require_once('transmedic_assets/js/minified/head.load.min.js'); ?>
+    </script>
+
     <script type="text/javascript">
 
       var PAGE_LIBRARY        = "transmedic_assets/js/minified/libraries-home.min.js";

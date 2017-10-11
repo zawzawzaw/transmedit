@@ -36,24 +36,8 @@ goog.inherits(transmedic.page.Career, transmedic.page.Default);
  * @const {object}
  */
 transmedic.page.Career.DEFAULT = {
-  'option_01': '',
-  'option_02': ''
+  
 };
-
-/**
- * CLASSNAME Event Constant
- * @const
- * @type {string}
- */
-transmedic.page.Career.EVENT_01 = '';
-
-/**
- * CLASSNAME Event Constant
- * @const
- * @type {string}
- */
-transmedic.page.Career.EVENT_02 = '';
-
 
 
 //    ___ _   _ ___ _____
@@ -156,8 +140,7 @@ transmedic.page.Career.prototype.create_pinned_mobile_scene = function() {
   
 
 };
-transmedic.page.Career.prototype.private_method_05 = function() {};
-transmedic.page.Career.prototype.private_method_06 = function() {};
+
 
 
 //    ____  _   _ ____  _     ___ ____
@@ -167,13 +150,6 @@ transmedic.page.Career.prototype.private_method_06 = function() {};
 //   |_|    \___/|____/|_____|___\____|
 //
 
-
-transmedic.page.Career.prototype.public_method_01 = function() {};
-transmedic.page.Career.prototype.public_method_02 = function() {};
-transmedic.page.Career.prototype.public_method_03 = function() {};
-transmedic.page.Career.prototype.public_method_04 = function() {};
-transmedic.page.Career.prototype.public_method_05 = function() {};
-transmedic.page.Career.prototype.public_method_06 = function() {};
 
 
 //    _______     _______ _   _ _____ ____
@@ -213,34 +189,3 @@ transmedic.page.Career.prototype.on_location_filter_change = function(event) {
 
 };
 
-/**
- * @param {object} event
- */
-transmedic.page.Career.prototype.on_event_handler_02 = function(event) {
-};
-
-/**
- * @param {object} event
- */
-transmedic.page.Career.prototype.on_event_handler_03 = function(event) {
-};
-
-/**
- * @param {object} event
- */
-transmedic.page.Career.prototype.on_event_handler_04 = function(event) {
-};
-
-
-
-
-
-
-transmedic.page.Career.prototype.sample_method_calls = function() {
-
-  // sample override
-  transmedic.page.Career.superClass_.method_02.call(this);
-
-  // sample event
-  this.dispatchEvent(new goog.events.Event(transmedic.page.Career.EVENT_01));
-};

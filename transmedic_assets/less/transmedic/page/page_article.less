@@ -189,6 +189,7 @@
           // font-size: 14px;
           // line-height: 20px;
           .source-sans-pro-light;
+          // .clanot-book;
           color: @light-grey;
         }
       }
@@ -327,6 +328,22 @@
   }
 }
 
+
+body.actual-mobile-version{
+  #page-article-tags-container {
+    ul li a{
+      &:hover{
+        color: @dark-blue;
+        &:after {
+          border-color: @dark-blue;
+        }
+      }
+    }
+  }
+}
+
+
+
 #page-article-published-date-container {
   margin-top: 45px;
   h6 {
@@ -400,6 +417,19 @@
   }
 }
 
+
+
+body.actual-mobile-version{
+  #page-article-source-container{
+    p a{
+      &:hover{
+        color: @dark-blue;
+      }
+    }
+  }
+}
+
+
 #page-article-social-media-container {
   margin-top: 25px;
   ul {
@@ -448,6 +478,20 @@
     }
   }
 }
+
+body.actual-mobile-version{
+  #page-article-social-media-container {
+    ul li a{
+      &:hover{
+        i{
+          color: @light-grey;
+        }
+      }
+    }
+  }
+}
+
+
 
 #page-article-contact-info-section {
   background-color: @light-pink-2;
@@ -529,6 +573,18 @@
     }
   }
 }
+
+body.actual-mobile-version{
+  #page-article-contact-info-section {
+    #contact-info-bg-container p a{
+      &:hover{
+        color: @dark-blue;
+      }
+    }
+  }
+}
+
+
 
 //    _____ ________  __________  ___    ____
 //   / ___//  _/ __ \/ ____/ __ )/   |  / __ \
@@ -642,6 +698,24 @@
   }
 
 }
+
+body.actual-mobile-version{
+  #page-default-news-item-container.article-page-version{
+    .page-default-news-item .item-title h5 a{
+      &:hover{
+        color: @off-black;
+      }
+    }
+  }
+  #page-default-news-item-container.career-detail-page-version{
+    .page-default-news-item .item-title h5 a{
+      &:hover{
+        color: @off-black;
+      }
+    }
+  }
+}
+
 
 
 

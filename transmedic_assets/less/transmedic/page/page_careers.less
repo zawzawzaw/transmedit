@@ -338,6 +338,15 @@
   }
 }
 
+body.actual-mobile-version{
+  #page-careers-job-filters-container ul li h4 a{
+    &:hover {
+      color: @light-grey;
+    }
+  }
+}
+
+
 
 
 
@@ -532,6 +541,7 @@
           left: 0px;
           top: -7px;
           .source-sans-pro-regular;
+          // .clanot-book;
           font-size: 25px;
         }
         h4 {
@@ -599,3 +609,31 @@
 }
 
 
+
+
+
+
+body.actual-mobile-version{
+  .job-list-item-container {
+
+    .job-list-item-view-detail-cta-container {
+      a.view-details-cta{
+        &:hover{
+          color: @dark-blue;
+          &:after {
+            border-color: @dark-blue;
+          }
+        }
+      }
+    } // .job-list-item-view-detail-cta-container
+
+    .job-list-item-content {
+      a{
+        &:hover {
+          color: @dark-blue;
+        }
+      }
+    } // .job-list-item-content
+
+  }
+}

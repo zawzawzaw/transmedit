@@ -4,9 +4,8 @@
   <!-- INSERT FONTS HERE -->
 
   <!-- Google Font -->
-  <!-- Merriweather Bold -->
-  <!-- Source Sans Pro Light, Light Italic, Regular, Semibold -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:700,700i,400|Source+Sans+Pro:300,300i,400,600,700" rel="stylesheet">
+  <!-- Source Sans Pro Light, Regular, Semibold -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
 
 
   <?php $is_debug = true; ?>

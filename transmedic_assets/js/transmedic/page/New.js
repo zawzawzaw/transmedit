@@ -19,6 +19,15 @@ transmedic.page.New = function(options, element) {
   // if class has parent
   //goog.events.EventTarget.call(this, options, element);
   //this.options = $.extend(this.options, transmedic.page.New.DEFAULT, options);
+  
+
+  /**
+   * @type {manic.ui.Dropdown}
+   */
+  this.filter_dropdown = null;
+  
+
+  
 
   this.create_feature_carousel();
   this.create_filters();
@@ -249,23 +258,9 @@ goog.inherits(transmedic.page.New, transmedic.page.Default);
  * @const {object}
  */
 transmedic.page.New.DEFAULT = {
-  'option_01': '',
-  'option_02': ''
 };
 
-/**
- * CLASSNAME Event Constant
- * @const
- * @type {string}
- */
-transmedic.page.New.EVENT_01 = '';
 
-/**
- * CLASSNAME Event Constant
- * @const
- * @type {string}
- */
-transmedic.page.New.EVENT_02 = '';
 
 
 
@@ -283,6 +278,22 @@ transmedic.page.New.EVENT_02 = '';
  */
 transmedic.page.New.prototype.init = function() {
   transmedic.page.New.superClass_.init.call(this);
+
+
+  if ($('#page-news-filter-list-mobile').length != 0) {
+    this.filter_dropdown = $('#page-news-filter-list-mobile .manic-dropdown').data('manic.ui.Dropdown');
+
+    // initial category
+    
+    if (this.current_category != 'all') {
+      this.filter_dropdown.set_value(this.current_category)
+    }
+    
+    
+
+    
+  }
+
 
   this.create_pinned_mobile_scene();
 
@@ -469,8 +480,6 @@ transmedic.page.New.prototype.get_filter_news = function() {
   }
 
 };
-transmedic.page.New.prototype.private_method_05 = function() {};
-transmedic.page.New.prototype.private_method_06 = function() {};
 
 
 //    ____  _   _ ____  _     ___ ____
@@ -480,13 +489,6 @@ transmedic.page.New.prototype.private_method_06 = function() {};
 //   |_|    \___/|____/|_____|___\____|
 //
 
-
-transmedic.page.New.prototype.public_method_01 = function() {};
-transmedic.page.New.prototype.public_method_02 = function() {};
-transmedic.page.New.prototype.public_method_03 = function() {};
-transmedic.page.New.prototype.public_method_04 = function() {};
-transmedic.page.New.prototype.public_method_05 = function() {};
-transmedic.page.New.prototype.public_method_06 = function() {};
 
 
 //    _______     _______ _   _ _____ ____
@@ -543,28 +545,3 @@ transmedic.page.New.prototype.on_load_more_news_click = function(event) {
   this.get_more_news();
 };
 
-/**
- * @param {object} event
- */
-transmedic.page.New.prototype.on_event_handler_03 = function(event) {
-};
-
-/**
- * @param {object} event
- */
-transmedic.page.New.prototype.on_event_handler_04 = function(event) {
-};
-
-
-
-
-
-
-transmedic.page.New.prototype.sample_method_calls = function() {
-
-  // sample override
-  transmedic.page.New.superClass_.method_02.call(this);
-
-  // sample event
-  this.dispatchEvent(new goog.events.Event(transmedic.page.New.EVENT_01));
-};

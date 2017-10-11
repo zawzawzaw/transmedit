@@ -353,7 +353,7 @@
 
           <div class="row visible-xs visible-sm">
             <div class="col-md-12">
-              <a href="#" class="square-cta">View brands</a>
+              <a href="products.php" class="square-cta">View brands</a>
             </div>
           </div>
 
@@ -568,8 +568,15 @@
                           <h4>Education & Events</h4>
                           <h5><a href="article.php" class="hover-sync">Poctions 2016: Today’s actions for tomorrow’s patients</a></h5>
                         </div>
-                        <div class="item-copy">
-                          <p>Together with the Singapore Association for the Medical Laboratory Sciences, Transmedic organised POCTions – a conflation of the terms POCT and “solutions” – on 15 October ...</p>
+                        <div class="visible-md visible-lg">
+                          <div class="item-copy">
+                            <p>Together with the Singapore Association for the Medical Laboratory Sciences, Transmedic organised POCTions – a conflation of the terms POCT and “solutions” – on 15 October ...</p>
+                          </div>
+                        </div>
+                        <div class="visible-sm visible-xs">
+                          <a href="article.php" class="item-copy">
+                            <p>Together with the Singapore Association for the Medical Laboratory Sciences, Transmedic organised POCTions – a conflation of the terms POCT and “solutions” – on 15 October ...</p>
+                          </a>
                         </div>
                         <div class="item-cta-container">
                           <a href="article.php" class="read-more-cta hover-sync">Read More</a>

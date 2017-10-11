@@ -54,7 +54,7 @@
 
                   <div id="page-default-banner-copy">
                     <h3>Our Leaders</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Together 15 years ago Teo, Lee & Seah led a successful management buyout and started a new chapter for Transmedic. Each with unique skillsets and experiences have expanded the business organically by fifteen times and are now ready for the next 15 years of double-digit growth.</p>
                   </div> <!-- page-home-banner-copy -->
 
                   <hr class="visible-sm visible-xs">
@@ -120,7 +120,10 @@
       | |/ |/ / __  / ___ |/ /      | |/ |/ / /___   / /_/ / /_/ /
       |__/|__/_/ /_/_/  |_/_/       |__/|__/_____/  /_____/\____/
 
-      -->      
+      -->
+
+      <div class="scroll-target" data-value="medical"></div>
+
       <article id="page-about-what-we-do-section">
         
         <div class="container-fluid has-breakpoint">
@@ -131,8 +134,7 @@
               </div>
             </div>
           </div>
-          <div id="page-about-what-we-do-content">            
-            <div class="scroll-target" data-value="medical"></div>
+          <div id="page-about-what-we-do-content">
             <div class="page-about-what-we-do-content-item">
               <div class="row">
                 
@@ -160,7 +162,7 @@
               </div> <!-- row -->
             </div> <!-- page-about-what-we-do-content-item -->
             
-            <div class="scroll-target" data-value="education"></div>          
+            <div class="scroll-target mobile-offset-version" data-value="education"></div>          
             <div class="page-about-what-we-do-content-item">
               <div class="row">
                 
@@ -194,7 +196,7 @@
               </div> <!-- row -->
             </div> <!-- page-about-what-we-do-content-item -->
 
-            <div class="scroll-target" data-value="support"></div>          
+            <div class="scroll-target mobile-offset-version" data-value="support"></div>          
             <div class="page-about-what-we-do-content-item">
               <div class="row">   
 
@@ -231,7 +233,7 @@
        / /___ /   | / / / _, _/ ___ |
       /_____//_/|_|/_/ /_/ |_/_/  |_|
 
-       -->
+      -->
 
       <article id="page-about-extra-section">
         <div class="container-fluid has-breakpoint">

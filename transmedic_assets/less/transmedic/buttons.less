@@ -46,6 +46,8 @@
   }
 }
 
+
+
 .arrow-cta.grey-version{
   &:hover{
     color: #666666 !important;
@@ -65,6 +67,18 @@
 } // .arrow-cta.left-version
 
 
+body.actual-mobile-version{
+  .arrow-cta{
+    &:hover{
+      color: @off-black;
+    }
+  }
+  .arrow-cta.grey-version{
+    &:hover{
+      color: @off-black !important;
+    }
+  }
+}
 
 
 //    ____  _        _    ___ _   _      _    ____  ____   _____        __
@@ -120,6 +134,13 @@
   }
 }
 
+body.actual-mobile-version{
+  .plain-arrow-cta{
+    &:hover{
+      color: @off-black;
+    }
+  }
+}
 
 
 
@@ -179,6 +200,18 @@
 }
 
 
+body.actual-mobile-version{
+  .square-cta{
+    &:hover{
+      background-color: @light-blue;
+    }
+  }
+}
+
+
+
+
+
 .square-cta.full-width-version{
   display: block;
   width: 100%;
@@ -186,7 +219,7 @@
 }
 
 
-.underline-link {  
+.underline-link {
   color: @dark-blue!important;
   position: relative;
   &:after {
@@ -205,6 +238,20 @@
     }
   }
 }
+
+body.actual-mobile-version{
+  .underline-link {
+    &:hover {
+      color: @dark-blue!important;
+      &:after{
+        border-bottom: 1px solid @border-grey;
+      }
+    }
+  }
+}
+
+
+
 
 .read-more-cta {
   .clanot-medium;
@@ -260,6 +307,21 @@
   }
 }
 
+body.actual-mobile-version{
+  .read-more-cta {
+    &:hover {
+      color: @light-blue!important;
+      &:after {
+        color: @light-blue!important;
+      }
+    }
+
+  }
+}
+
+
+
+
 
 //    ____  _        _    ___ _   _
 //   |  _ \| |      / \  |_ _| \ | |
@@ -294,4 +356,12 @@
     // }
   }
 
+}
+
+body.actual-mobile-version{
+  .plain-cta{
+    &:hover{
+      color: @dark-blue !important;
+    }
+  }
 }

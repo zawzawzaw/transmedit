@@ -45,6 +45,13 @@
   position: absolute;
   right: 0;
   top: 130px;
+
+  // TABLET LANDSCAPE
+  @media only screen and (max-width: 1024px) and (min-width: 992px) {
+    top: 136px;
+  }
+
+
   ul {
     li {
       display: inline-block;
@@ -118,6 +125,35 @@
   }
 }
 
+
+
+
+body.actual-mobile-version{
+  
+  #page-products-brands-tabs-icons {
+
+    #icon-view-btn {
+      &:hover {
+        .square {
+          background: @light-grey;
+        }
+      }
+    }
+    #list-view-btn{
+      &:hover {
+        .bar {
+          background: @light-grey;
+        }
+      }
+    }
+
+  }
+}
+
+
+
+
+
 .products-brands-tabs {
   display: none;
   .transition(.3s);
@@ -165,6 +201,18 @@
 
 #page-products-brands-icon-view-tab {
   // margin-top: -25px;
+}
+
+#page-products-brands-list-view-items{
+  // TABLET LANDSCAPE
+  @media only screen and (max-width: 1024px) and (min-width: 992px) {
+    padding-right: 50px;
+  }
+  // TABLET PORTRAIT
+  @media only screen and (max-width: 991px) {
+    padding-right: 0px;
+  }
+
 }
 
 .page-products-brands-icon-view-tab-item {
@@ -401,6 +449,22 @@
   }
 }
 
+
+
+body.actual-mobile-version{
+  .page-products-brands-icon-view-tab-item{
+    .item-copy p a{
+      &:hover {
+        color: @dark-blue;
+      }
+    }
+  }
+}
+
+
+
+
+
 //     __  _______  ____  ______    ______   ______________  _   __   _    _____________       __
 //    /  |/  / __ \/ __ )/  _/ /   / ____/  /  _/ ____/ __ \/ | / /  | |  / /  _/ ____/ |     / /
 //   / /|_/ / / / / __  |/ // /   / __/     / // /   / / / /  |/ /   | | / // // __/  | | /| / /
@@ -537,6 +601,17 @@
     }
   }
 }
+
+body.actual-mobile-version{
+  .page-products-brands-list-view-item {
+    .item-email a{
+      &:hover {
+        color: @dark-blue;
+      }
+    }
+  }
+}
+
 
 //     __    _______________   _    _____________       __   __  _______  ____  ______    ______
 //    / /   /  _/ ___/_  __/  | |  / /  _/ ____/ |     / /  /  |/  / __ \/ __ )/  _/ /   / ____/

@@ -1,10 +1,10 @@
 java -jar "compiler.jar" ^
   --js=..\..\js\manic\**.js ^
-  --js=..\..\js\rippledot\**.js ^
+  --js=..\..\js\transmedic\**.js ^
   --js=closure-library\**.js ^
   --only_closure_dependencies ^
   --compilation_level ADVANCED_OPTIMIZATIONS ^
-  --closure_entry_point=rippledot.page.Home ^
+  --closure_entry_point=transmedic.page.Home ^
   --externs=closure-externs\jquery-1.9.js ^
   --externs=closure-externs\html5.js ^
   --externs=closure-externs\window.js ^
@@ -12,6 +12,5 @@ java -jar "compiler.jar" ^
   --externs=closure-externs\all.js ^
   --externs=closure-externs\jquery_plugins.js ^
   --externs=closure-externs\scrollmagic.js ^
-  --externs=closure-externs\new_fullpage.js ^
   --externs=closure-externs\others.js ^
   --js_output_file=..\..\js\minified\page-home.min.js

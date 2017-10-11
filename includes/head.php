@@ -12,7 +12,17 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui"/>
 
-  <link rel="stylesheet" type="text/css" href="transmedic_assets/css/critical_style.css">
+  <?php $is_debug = false; ?>
+
+  <?php if ($is_debug == true): ?>
+    <link rel="stylesheet" type="text/css" href="transmedic_assets/css/critical_style.css">
+
+  <?php else: ?>
+    <style type="text/css">
+      <?php require_once('transmedic_assets/css/critical_style.css'); ?>
+    </style>
+
+  <?php endif; ?>
   
   <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>

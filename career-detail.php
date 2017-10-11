@@ -54,7 +54,7 @@
                   <div id="page-article-video-container">
                     <div id="page-article-video">
                       <div class="manic-image-container">
-                        <img src="" data-image="images_cms/careers/career-detail-fabian-banner.jpg">
+                        <img src="" data-image="images_cms/careers/career-detail-fabian-banner-v2.jpg">
                       </div>
                     </div>
                     <div class="default-image-margin"></div>

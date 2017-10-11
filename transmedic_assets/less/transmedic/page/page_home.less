@@ -149,6 +149,7 @@
       }
     }    
     .item-copy {
+
       h5{
         .h3-style-mobile;
 
@@ -239,11 +240,14 @@
 
   @media all and (max-width: 991px) {
     .cta-container{
-      display: none;
+      margin-top: 15px;
+      // display: none;
     }
 
     .page-home-lastest-item {
-      margin-bottom: 25px;
+      // margin-bottom: 25px;
+      margin-bottom: 30px;
+
       &:last-child{
         margin-bottom: 0px;
       }
@@ -334,7 +338,9 @@
     }
   }
   .item-tag{
+
     .source-sans-pro-regular;
+    // .clanot-book;
 
     // font-size: 24px;
     // letter-spacing: 0.1em;
@@ -693,6 +699,17 @@
   }
 
   // TABLET LANDSCAPE
+  @media only screen and (max-width: 1024px) {
+    ul{
+      display: block;
+      &:last-child{
+        margin-top: 10px;
+      }
+    }
+  }
+
+
+  // TABLET LANDSCAPE
   @media only screen and (max-width: 1024px) and (min-width: 992px) {
     ul{
       margin-right: 40px;
@@ -704,6 +721,24 @@
 
 
 } // #page-home-brand-links
+
+
+
+
+
+body.actual-mobile-version{
+  
+  #page-home-brand-links{
+    ul li a{
+      &:hover{
+        color: @dark-grey !important;
+      }
+    }
+  }
+}
+
+
+
 
 
 //        __  __    _    ____

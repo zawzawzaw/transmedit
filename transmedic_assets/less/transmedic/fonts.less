@@ -119,11 +119,13 @@
   font-style: normal;
   font-weight: 300;
 }
-.source-sans-pro-light-italic{
-  font-family: 'Source Sans Pro', 'Arial', sans-serif;
-  font-style: italic;
-  font-weight: 300;
-}
+
+
+// .source-sans-pro-light-italic{
+//   font-family: 'Source Sans Pro', 'Arial', sans-serif;
+//   font-style: italic;
+//   font-weight: 300;
+// }
 
 .source-sans-pro-semibold{
   font-family: 'Source Sans Pro', 'Arial', sans-serif;
@@ -132,11 +134,11 @@
 }
 
 
-.source-sans-pro-bold{
-  font-family: 'Source Sans Pro', 'Arial', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-}
+// .source-sans-pro-bold{
+//   font-family: 'Source Sans Pro', 'Arial', sans-serif;
+//   font-style: normal;
+//   font-weight: 700;
+// }
 
 
 
@@ -838,6 +840,19 @@ p{
 
 }
 
+
+
+
+
+body.actual-mobile-version{
+  .default-copy{
+    li a{
+      &:hover{
+        color: @off-black;
+      }
+    }
+  }
+}
 
 
 

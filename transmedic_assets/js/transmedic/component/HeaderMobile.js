@@ -199,12 +199,14 @@ transmedic.component.HeaderMobile.prototype.create_nav = function() {
 
 };
 
-transmedic.component.HeaderMobile.prototype.create_autocomplete = function() {
-  this.auto_complete_search = new manic.ui.AutoCompleteSearch({
-    'data_container': '#search-data-container',
-    'selector': '.search-data-item',
-    'unique_name': 'ac-renderer-mobile-header-search'
-  }, $('#mobile-header-search'));
-};
+
+
+// transmedic.component.HeaderMobile.prototype.create_autocomplete = function() {
+//   this.auto_complete_search = new manic.ui.AutoCompleteSearch({
+//     'data_container': '#search-data-container',
+//     'selector': '.search-data-item',
+//     'unique_name': 'ac-renderer-mobile-header-search'
+//   }, $('#mobile-header-search'));
+// };
 
 

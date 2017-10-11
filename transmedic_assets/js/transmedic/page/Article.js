@@ -40,23 +40,9 @@ goog.inherits(transmedic.page.Article, transmedic.page.Default);
  * @const {object}
  */
 transmedic.page.Article.DEFAULT = {
-  'option_01': '',
-  'option_02': ''
 };
 
-/**
- * CLASSNAME Event Constant
- * @const
- * @type {string}
- */
-transmedic.page.Article.EVENT_01 = '';
 
-/**
- * CLASSNAME Event Constant
- * @const
- * @type {string}
- */
-transmedic.page.Article.EVENT_02 = '';
 
 //    ___ _   _ ___ _____
 //   |_ _| \ | |_ _|_   _|
@@ -120,13 +106,6 @@ transmedic.page.Article.prototype.create_article_carousel = function() {
     "centerPadding": 0,
   });
 
-  // $('#page-article-image-carousel-nav').on('click', '.slick-slide', function (e) {
-  //   e.stopPropagation();    
-  //   var index = $(this).data("slick-index");    
-  //   if ($('#page-article-image-carousel-nav').slick('slickCurrentSlide') !== index) {
-  //     $('#page-article-image-carousel-nav').slick('slickGoTo', index-1);
-  //   }
-  // });
 };
 
 transmedic.page.Article.prototype.create_article_sidebar_sticky = function() {
@@ -160,10 +139,6 @@ transmedic.page.Article.prototype.create_article_sidebar_sticky = function() {
   }
   
 };
-transmedic.page.Article.prototype.private_method_03 = function() {};
-transmedic.page.Article.prototype.private_method_04 = function() {};
-transmedic.page.Article.prototype.private_method_05 = function() {};
-transmedic.page.Article.prototype.private_method_06 = function() {};
 
 
 //    _        _ __   _____  _   _ _____
@@ -200,12 +175,6 @@ transmedic.page.Article.prototype.update_page_layout = function(){
 //
 
 
-transmedic.page.Article.prototype.public_method_01 = function() {};
-transmedic.page.Article.prototype.public_method_02 = function() {};
-transmedic.page.Article.prototype.public_method_03 = function() {};
-transmedic.page.Article.prototype.public_method_04 = function() {};
-transmedic.page.Article.prototype.public_method_05 = function() {};
-transmedic.page.Article.prototype.public_method_06 = function() {};
 
 
 //    _______     _______ _   _ _____ ____
@@ -215,40 +184,3 @@ transmedic.page.Article.prototype.public_method_06 = function() {};
 //   |_____|  \_/  |_____|_| \_| |_| |____/
 //
 
-/**
- * @param {object} event
- */
-transmedic.page.Article.prototype.on_event_handler_01 = function(event) {
-};
-
-/**
- * @param {object} event
- */
-transmedic.page.Article.prototype.on_event_handler_02 = function(event) {
-};
-
-/**
- * @param {object} event
- */
-transmedic.page.Article.prototype.on_event_handler_03 = function(event) {
-};
-
-/**
- * @param {object} event
- */
-transmedic.page.Article.prototype.on_event_handler_04 = function(event) {
-};
-
-
-
-
-
-
-transmedic.page.Article.prototype.sample_method_calls = function() {
-
-  // sample override
-  transmedic.page.Article.superClass_.method_02.call(this);
-
-  // sample event
-  this.dispatchEvent(new goog.events.Event(transmedic.page.Article.EVENT_01));
-};
